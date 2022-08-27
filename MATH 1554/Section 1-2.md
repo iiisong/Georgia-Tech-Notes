@@ -5,18 +5,18 @@
 
 $$
 \begin{bmatrix}
-\# & * & * & * &\\[0.4em]
-0 & \#  & * & *\\[0.4em]
-0 & 0 & \# & * \\[0.4em]
-0 & 0 & 0 & \#
+& \# & * & * & *  & \\[0.4em]
+& 0 & \#  & * & * & \\[0.4em]
+& 0 & 0 & \# & *  & \\[0.4em]
+& 0 & 0 & 0 & \#
 \end{bmatrix}
 $$
 
 $$
 \begin{bmatrix}
-\# & * & * & * &\\[0.4em]
-0 & \#  & * & *\\[0.4em]
-0 & 0 & 0 & \#
+& \# & * & * & *  & \\[0.4em]
+& 0 & \#  & * & * & \\[0.4em]
+& 0 & 0 & 0 & \#
 \end{bmatrix}
 $$
 
@@ -36,18 +36,18 @@ A rectangular matrix is in **eschelon form** if
 
 $$
 \begin{bmatrix}
-1 & * & * & * &\\[0.4em]
-0 & 1  & * & *\\[0.4em]
-0 & 0 & 1 & * \\[0.3em]
-0 & 0 & 0 & 1
+& 1 & * & * & * & \\[0.4em]
+& 0 & 1  & * & * & \\[0.4em]
+& 0 & 0 & 1 & *\\[0.3em]
+& 0 & 0 & 0 & 1
 \end{bmatrix}
 $$
 
 $$
 \begin{bmatrix}
-1 & 0 & * & 0 &\\[0.4em]
-0 & 1  & * & 0\\[0.4em]
-0 & 0 & 0 & 1
+& 1 & 0 & * & 0  & \\[0.4em]
+& 0 & 1  & * & 0 & \\[0.4em]
+& 0 & 0 & 0 & 1
 \end{bmatrix}
 $$
 
@@ -59,69 +59,143 @@ $$
 
 $$
 \begin{bmatrix}
-1 & * & * & * &\\[0.4em]
-0 & 1  & * & *\\[0.4em]
-0 & 0 & 1 & * \\[0.3em]
-0 & 0 & 0 & 1
+& 1 & * & * & * & \\[0.4em]
+& 0 & 1  & * & * & \\[0.4em]
+& 0 & 0 & 1 & *\\[0.4em]
+& 0 & 0 & 0 & 1
 \end{bmatrix}
 $$
 
 $$
 \begin{bmatrix}
-1 & 0 & * & 0 &\\[0.4em]
-0 & 1  & * & 0\\[0.4em]
-0 & 0 & 0 & 1
+& 1 & 0 & * & 0 & \\[0.4em]
+& 0 & 1  & * & 0 & \\[0.4em]
+& 0 & 0 & 0 & 1
 \end{bmatrix}
 $$
 pivot positions (1,1), (2,2), (3,3), (4,4) for top matrix  
 pivot positions are (1,1) (2,2), (3,4)
 
 
-0 -3 -6 4  
--1 2 -1 3  
--2 -3 0 3  
 
--1 -2 -1 3  
-0 -3 -6 4  
--2 -3 0 3  
+## Example 1
+> Starting Matrix
+$$
+\begin{bmatrix}
+& 0 & -3 & -6 & 4 & \\[0.4em]
+& -1 & 2 & -1 & 3 & \\[0.4em]
+& -2 & -3 & 0 & 3 & \\[0.4em]
+\end{bmatrix}
+$$
 
-1 2 1 -3  
-0 3 6 -4  
--2 -3 0 3 
+> (2) <-> (1)
+$$
+\begin{bmatrix}
+& -1 & -2 & -1 & 3 & \\[0.4em]
+& 0 & -3 & -6 & 4 & \\[0.4em]
+& -2 & -3 & 0 & 3 & \\[0.4em]
+\end{bmatrix}
+$$
 
-1 2 1 -3  
-0 3 6 -4  
-0 1 2 -3  
-
-1 2 1 -3  
-0 1 2 -3  
-0 3 6 -4  
-
-1 2 1 -3  
-0 1 2 -3  
-0 0 0 5
-
-1 2 1 -3  
-0 1 2 -3  
-0 0 0 1
+> -1 * (1)
+$$
+\begin{bmatrix}
+& 1 & 2 & 1 & -3 & \\[0.4em]
+& 0 & 3 & 6 & -4 & \\[0.4em]
+& -2 & -3 & 0 & 3 & \\[0.4em]
+\end{bmatrix}
+$$
+> (3) + 2 * (1)
+$$
+\begin{bmatrix}
+1 & 2 & 1 & -3 & \\[0.4em]
+0 & 3 & 6 & -4 & \\[0.4em]
+0 & 1 & 2 & -3 & \\[0.4em]
+\end{bmatrix}
+$$
+> (2) <-> (3)
+$$
+\begin{bmatrix}
+& 1 & 2 & 1 & -3 & \\[0.4em]
+& 0 & 1 & 2 & -3 & \\[0.4em]
+& 0 & 3 & 6 & -4 & \\[0.4em]
+\end{bmatrix}
+$$
+> (3) - 3 * (2)
+$$
+\begin{bmatrix}
+& 1 & 2 & 1 & -3 & \\[0.4em]
+& 0 & 1 & 2 & -3 & \\[0.4em]
+& 0 & 0 & 0 & 5 & \\[0.4em]
+\end{bmatrix}
+$$
+> 1/5 * (3)
+$$
+\begin{bmatrix}
+& 1 & 2 & 1 & -3 & \\[0.4em]
+& 0 & 1 & 2 & -3 & \\[0.4em]
+& 0 & 0 & 0 & 1 & \\[0.4em]
+\end{bmatrix}
+$$
 
 ---
+## Example 2
+> Starting Matrix
+$$
+\begin{bmatrix}
+& 0 & -3 & -6 & 4 & \\[0.4em]
+& -1 & -2 & -1 & 3 & \\[0.4em]
+& -2 & -3 & 0 & 3 & \\[0.4em]
+\end{bmatrix}
+$$
+> (1) <-> (2)
+$$
+\begin{bmatrix}
+& -1 & -2 & -1 & 3 & \\[0.4em]
+& 0 & -3 & -6 & 4 & \\[0.4em]
+& -2 & -3 & 0 & 3 & \\[0.4em]
+\end{bmatrix}
+$$
+> -1 * (1)
+$$
+\begin{bmatrix}
+& 1 & 2 & 1 & -3 & \\[0.4em]
+& 0 & -3 & -6 & 4 & \\[0.4em]
+& -2 & -3 & 0 & 3 & \\[0.4em]
+\end{bmatrix}
+$$
+> (3) + 2 * (1)
+$$
+\begin{bmatrix}
+& 1 & 2 & 1 & -3 & \\[0.4em]
+& 0 & -3 & -6 & 4 & \\[0.4em]
+& 0 & 0 & 0 & 1 & \\[0.4em]
+\end{bmatrix}
+$$
 
-0 -3 -6 4  
--1 -2 -1 3  
--2 -3 0 3  
+$$
+\begin{bmatrix}
+& 1 & 2 & 1 & -3 & \\[0.4em]
+& 0 & 1 & 2 & -3 & \\[0.4em]
+& 0 & 0 & 0 & 1 & \\[0.4em]
+\end{bmatrix}
+$$
+> 
+$$
+\begin{bmatrix}
+& 1 & 2 & 1 & 0 & \\[0.4em]
+& 0 & 1 & 2 & 0 & \\[0.4em]
+& 0 & 0 & 0 & 1 & \\[0.4em]
+\end{bmatrix}
+$$
 
-1 2 1 -3  
-0 1 2 -3  
-0 0 0 1
-
-1 2 1 0  
-0 1 2 0  
-0 0 0 1
-
-1 0 -3 0  
-0 1 2 0  
-0 0 0 1  
+$$
+\begin{bmatrix}
+& 1 & 0 & -3 & 0 & \\[0.4em]
+& 0 & 1 & 2 & 0 & \\[0.4em]
+& 0 & 0 & 0 & 1 & \\[0.4em]
+\end{bmatrix}
+$$
 
 ---
 ## Algorithm for Eschelon Form
@@ -146,10 +220,14 @@ Use row replacement so all entries above each leading entry are 0, starting from
 
 Consider the augmented matrix
 
-x1 x2 x3 x4 x5  
-1  3  0  7  0  |  4  
-0  0  1  4  0  |  5  
-0  0  0  0  1  |  6
+$$
+\begin{bmatrix}
+& x1 & x2 & x3 & x4 & x5 & \\[0.4em]
+& 1 & 3 & 0 & 7 & 0 & | & 4 & \\[0.4em]
+& 0 & 0 & 1 & 4 & 0 & | & 5 & \\[0.4em]
+& 0 & 0 & 0 & 0 & 1 & | & 6 & \\[0.4em]
+\end{bmatrix}
+$$
 
 Leading ones are in the first and third columns
 
@@ -167,11 +245,14 @@ Leading ones are in the first and third columns
 
 > In other words, last column can not have leading entry 1 to be consistent
 
-
-x1 x2 x3 x4 x5  
-1  3  0  7  0  |  4  
-0  0  1  4  0  |  5  
-0  0  0  0  1  |  6
+$$
+\begin{bmatrix}
+& x1 & x2 & x3 & x4 & x5 & \\[0.4em]
+& 1 & 3 & 0 & 7 & 0 & | & 4 & \\[0.4em]
+& 0 & 0 & 1 & 4 & 0 & | & 5 & \\[0.4em]
+& 0 & 0 & 0 & 0 & 1 & | & 6 & \\[0.4em]
+\end{bmatrix}
+$$
 
 This system does not have a leading zero in the last column [4,5,6] so it is consistent.
 
@@ -182,9 +263,13 @@ This system does not have a leading zero in the last column [4,5,6] so it is con
 
 ---
 ---
-1 0 0 1  
-0 0 1 2  
-0 0 0 0
+$$
+\begin{bmatrix}
+& 1 & 0 & 0 & 1 & \\[0.4em]
+& 0 & 0 & 1 & 2 & \\[0.4em]
+& 0 & 0 & 0 & 0 & \\[0.4em]
+\end{bmatrix}
+$$
 
 Pivot Variables: x1, x3
 
@@ -195,9 +280,13 @@ Consistent: yes
 Unique: No
 
 ---
-1 0 0 0  
-0 0 1 0  
-0 0 0 1  
+$$
+\begin{bmatrix}
+& 1 & 0 & 0 & 0 & \\[0.4em]
+& 0 & 0 & 1 & 0 & \\[0.4em]
+& 0 & 0 & 0 & 1 & \\[0.4em]
+\end{bmatrix}
+$$
 
 Pivot Variables: x1, x3  
 Free variables: x2  
@@ -205,10 +294,13 @@ Consistent: No
 Unique: Doesn't Apply  
 
 ---
-1 0 0 0  
-0 1 0 0  
-0 0 1 0  
-
+$$
+\begin{bmatrix}
+& 1 & 0 & 0 & 0 & \\[0.4em]
+& 0 & 1 & 0 & 0 & \\[0.4em]
+& 0 & 0 & 1 & 0 & \\[0.4em]
+\end{bmatrix}
+$$
 Pivot Varriables: x1, x2, x3  
 Free variables: None  
 Consistent: Yes  
