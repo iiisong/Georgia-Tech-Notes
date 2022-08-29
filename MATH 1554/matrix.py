@@ -1,9 +1,7 @@
 text_matrix = '''
 
-x1 x2 x3 x4 x5  
-1  3  0  7  0  |  4  
-0  0  1  4  0  |  5  
-0  0  0  0  1  |  6
+b_1
+b_2
 '''
 
 def text_to_matrix (text_matrix):
@@ -18,7 +16,20 @@ def text_to_matrix (text_matrix):
             continue
 
         elems = [i for i in r.split(" ") if len(i) != 0]
-        row_text = "\n" + " & ".join(elems) + "\\\[0.4em]"
+        
+        row_text = ""
+        if len(elems) > 1:
+            row_text = "\n& "
+            
+        row_text += " & ".join(elems) + "& \\\[0.4em]"
+        
+        if len(elems) > 1:
+            row_text += "& \\\[0.4em]"
+        
+        else:
+            row_text += 
+            
+        
         result += row_text
     
     result += '''\n\\end{bmatrix}\n$$'''

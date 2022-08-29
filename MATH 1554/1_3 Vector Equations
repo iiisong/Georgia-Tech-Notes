@@ -7,8 +7,8 @@ We will cover these topics in this section
 
 > **Algebra** in Linear algebra in tterms of **geometry**
 
-x - 3y = -3
-2x = y = 8
+$$x - 3y = -3$$
+$$2x = y = 8$$
 
 Need interdimensional space $R^3$ and vectors in it
 
@@ -56,14 +56,14 @@ $$\bar u + \bar v = \binom{u_1 + v_1}{u_2 + v_2}$$
 
 ### Example 1
 
-u = 1, -2  
-v = 2, -5
+$$u = 1, -2$$  
+$$v = 2, -5$$
 
 Find:
 
-4u = 4, -8  
--3v = -6, 15  
-4u + -3v = -2, 7
+$$4u = 4, -8$$  
+$$-3v = -6, 15$$  
+$$4u + -3v = -2, 7$$
 
 ---
 
@@ -80,16 +80,21 @@ Find:
 
 2. The set of all linear combinations of $v_1, v_2, ..., v_p$ is calle dhte Span of v_1, v_2, ...., v_p$
 
-Span {u, v} =   
-$u_1x_1 + v_1x_2$  
-$u_2x_2 + v_2x_2$
+$$ Span\{u, v\} =   
+u_1x_1 + v_1x_2  
+u_2x_2 + v_2x_2$$
 
 
-b =
-b_1
-b_2
 
-b in span {u, v}
+$
+b=
+\begin{bmatrix}
+b_1\\[0.4em]
+b_2\\[0.4em]
+\end{bmatrix}
+$
+
+b in span ${u, v}$
 
 $u_1x_1 + v_1x_2 = b_1$  
 $u_2x_1 + v_2x_2 = b_2$
@@ -119,7 +124,14 @@ y =
 
 1 2 | 7  
 -2 5 | 4  
--3 6 | 15  
+-3 6 | 15 
+$$
+\begin{bmatrix}
+& 1 & 2 & | & 7& \\[0.4em]
+& -2 & 5 & | & 4& \\[0.4em]
+& -3 & 6 & | & 15& \\[0.4em]
+\end{bmatrix}
+$$ 
 
 > (2) + 2(1)
 
