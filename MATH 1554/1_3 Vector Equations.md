@@ -70,6 +70,7 @@ $$4u + -3v = -2, 7$$
 ## Geometric Interpretation of Linear Combinations
 
 **As long 2 vectors $u$,$v$ in $R^2$ not parallel to each other, any vector in $R^2$ can be represented with a combination of $u$ and $v$**
+
 ---
 ## Linear Combinations and Span
 1. Given vectors $v_1, v_2, ..., v_p <- R^n$ and scalars $c_1, c_2, ... , c_p$, the vectors below
@@ -99,32 +100,38 @@ b in span ${u, v}$
 $u_1x_1 + v_1x_2 = b_1$  
 $u_2x_1 + v_2x_2 = b_2$
 
-B in span if there exist coeffs x_1, x_2 such that b = x_1u + x_2v
+B in span if there exist coeffs $x_1$, $x_2$ such that $b = x_1u + x_2v$
 
 
 ---
 
 ### Example 3
-is y in the span of vectors v_1 and v_2
+is $y$ in the span of vectors $v_1$ and $v_2$
 
-v_1 =   
-1
--2
--3
+$$v_1 =
+\begin{bmatrix}
+1\\[0.4em]
+-2\\[0.4em]
+-3\\[0.4em]
+\end{bmatrix}
+$$
 
-v_2 =  
-2
-5
-6
+$$v_2 = 
+\begin{bmatrix}
+2\\[0.4em]
+5\\[0.4em]
+6\\[0.4em]
+\end{bmatrix}
+$$
 
-y =  
-7
-4
-15
+$$ y = 
+\begin{bmatrix}
+7\\[0.4em]
+4\\[0.4em]
+15\\[0.4em]
+\end{bmatrix}
+$$
 
-1 2 | 7  
--2 5 | 4  
--3 6 | 15 
 $$
 \begin{bmatrix}
 & 1 & 2 & | & 7& \\[0.4em]
@@ -134,44 +141,61 @@ $$
 $$ 
 
 > (2) + 2(1)
-
-1 2 | 7  
-0 9 | 18  
--3 6 | 15
+$$
+\begin{bmatrix}
+& 1 & 2 & | & 7& \\[0.4em]
+& 0 & 9 & | & 18& \\[0.4em]
+& -3 & 6 & | & 15& \\[0.4em]
+\end{bmatrix}
+$$
 
 > (3) + 3(1)
-
-1 2 | 7  
-0 9 | 18  
-0 12 | 36
+$$
+\begin{bmatrix}
+& 1 & 2 & | & 7& \\[0.4em]
+& 0 & 9 & | & 18& \\[0.4em]
+& 0 & 12 & | & 36& \\[0.4em]
+\end{bmatrix}
+$$
 
 > 1/9 (2)  
-
-1 2 | 7  
-0 1 | 2  
-0 12 | 36
+$$
+\begin{bmatrix}
+& 1 & 2 & | & 7& \\[0.4em]
+& 0 & 1 & | & 2& \\[0.4em]
+& 0 & 12 & | & 36& \\[0.4em]
+\end{bmatrix}
+$$
 
 > 1/12 (3)
-
-1 2 | 7  
-0 1 | 2
-0 1 | 3  
+$$
+\begin{bmatrix}
+& 1 & 2 & | & 7& \\[0.4em]
+& 0 & 1 & | & 2& \\[0.4em]
+& 0 & 1 & | & 3& \\[0.4em]
+\end{bmatrix}
+$$
 
 > (3) - (2)
-
-1 2 | 7  
-0 1 | 2  
-0 0 | 1
+$$
+\begin{bmatrix}
+& 1 & 2 & | & 7& \\[0.4em]
+& 0 & 1 & | & 2& \\[0.4em]
+& 0 & 0 & | & 1& \\[0.4em]
+\end{bmatrix}
+$$
 
 Inconsistent
 
-y is not in the span of v_1 and v_2
+$y$ is not in the span of $v_1$ and $v_2$
 
 **2 vectors is not enough to capture the span of $R^3$**
 
 ---
 
-Let $w_1, W_2, w_3, u, v$ be vectors in $R^n$. Supposed the vectors $u$ and $v$ are in Span{$w_1, w_2, w_3$}. Show that $u+v$ is also in Span {$w_1, w_2, w_3$}
+Let $w_1, W_2, w_3, u, v$ be vectors in $R^n$.  
+Supposed the vectors $u$ and $v$ are in Span{$w_1, w_2, w_3$}.   
+Show that $u+v$ is also in Span {$w_1, w_2, w_3$}
 
 
 $u = c_1w_1, c_2w_2, c_3w_3 $

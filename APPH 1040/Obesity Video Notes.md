@@ -22,6 +22,9 @@
     - increased profit margins for food derived from major subsidized products like corn/soy
   - expectation of growth lead to pressure to sell more and more
   - makes healthy foods much less affordable 
+<br>
+<br>
+<br>
 
 ---
 # Video Questions

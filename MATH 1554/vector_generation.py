@@ -1,20 +1,19 @@
-text_matrix = '''
+text_vector = '''
 
-
-1 -7 0 6 |  5
-0 0 1 -2 | -3
--1 7 -4 2 | 7
+| | ... |
+a1 a2 ... a3
+| | ... |
 '''
 
 
-def text_to_matrix (text_matrix):
-    result = '''$$\n\\begin{bmatrix}'''
+def text_to_vector (text_vector):
+    result = '''$$\n\\begin{pmatrix}'''
 
-    list_matrix = text_matrix.split("\n")
-    r_num = len(list_matrix)
-    c_num = len(list_matrix[0].split(" "))
+    list_vector = text_vector.split("\n")
+    r_num = len(list_vector)
+    c_num = len(list_vector[0].split(" "))
 
-    for r in list_matrix:
+    for r in list_vector:
 
         elems = [i for i in r.split(" ") if len(i) != 0]
         
@@ -37,12 +36,12 @@ def text_to_matrix (text_matrix):
         
         result += row_text
     
-    result += '''\n\\end{bmatrix}\n$$'''
+    result += '''\n\\end{pmatrix}\n$$'''
 
     print(result)
     
 
-text_to_matrix(text_matrix)
+text_to_vector(text_vector)
 
 
 
