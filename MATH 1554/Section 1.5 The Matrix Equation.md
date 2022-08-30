@@ -50,7 +50,7 @@ x4
 = x1a1 + xx2a2 + ... xnan
 
 
-Note that $A\bar{x}$ is in the span of the columns of $A4
+Note that $A\vec{x}$ is in the span of the columns of $A4
 
 ### Example
 $$
@@ -136,7 +136,7 @@ b. $A(cu) = c(Au)$
 -  Matrix products distribute across vector addition
 
 ## Example
-solutions to $$A\bar{x} = b$$ has the same set of solutions as the vector equation $$x_1\bar{a}_1+...+x_n\bar{a}_n = b$$
+solutions to $$A\vec{x} = b$$ has the same set of solutions as the vector equation $$x_1\vec{a}_1+...+x_n\vec{a}_n = b$$
 
 # Theorem
 > The equation $Ax = b$ has a solution\* if and only if b is a linear combination of the columns of A\*\*.
@@ -280,7 +280,14 @@ u = RREF(A)
  RREF(A | b) = (u | c)
 
 
+<br>
+<br>
+<br>
 
+# Recitation
+Set of vectors represent every possibile linear combination of the vectors.
+
+Check whether a vector in a span of a set of vector by checking augmented matrix.
 
 
 

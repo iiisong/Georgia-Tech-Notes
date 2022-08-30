@@ -124,4 +124,4 @@
 
 
 # Wilderness embodies a dualist vision in which the human is outside natural
-    - If true, our presense is its downfall
+- If true, our presense is its downfall

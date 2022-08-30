@@ -1,7 +1,5 @@
 text_matrix = '''
-1
--2
--3
+A \\vec{b}
 '''
 
 
