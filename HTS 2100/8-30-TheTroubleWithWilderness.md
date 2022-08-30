@@ -125,3 +125,41 @@
 
 # Wilderness embodies a dualist vision in which the human is outside natural
 - If true, our presense is its downfall
+
+- Worse is to live in urbanized areas but pretend our *real* home is in the wilderness
+    - falsely gives ourselves permission to evade responsibility for our own lives
+    - we end up pick and choosing what we want and neglect the rest
+    - we believe that we would get the safety and priviledges of urban living while not having to deal with the negative aspects
+
+## It is not the things we label as wilderness tha are the problem -- for nonhuman nature and large tracts of the natural world *do* deserve protection -- but rather what we ourselves mean when we use the label. 
+- Defenders of biological diversity use "untouched" ecosystems as the best and richest repositories of undiscovered species
+    - paradox is that biological diversity is likely to survive only by most viligant and self-conscious management of the ecosystem
+    - ideology of wilderness is direct in conflict with what we are trying to protect
+
+- Single species preservation efforts is on weak standing, lots of vulnerability
+- cultural imperialism aspects of environmental "protection," rainforest good examples
+
+- We have been manipulating natural world for as long as we have record of
+# If nature dies because we enter it, then the only way to savee nature is to kill ourselves
+
+- Earth First! Dave Foreman sentiment that wilderness has been losing since sart of faarms
+    - Foreman the TR style
+- IF we set too high of a stock on wilderness, too many other corners of the earth become less than natural and too many other people become less than human, thereb y giving us permission not to care much about their sufferingg and fate.
+- "inconsequential" environmental problem maily affect poor people
+    - long affiliation between wildeerness and wealth
+- "Wilderness experience"
+    - nearly exclusive to high class privilidges
+
+- We should try exploring the sublime wilderness in our own neighborhoods
+
+- "Wilderness is a place where, sybolically at least, we try to withould our power to ddominate."
+
+## Striking power of the wild is of its wonder
+
+- Tree in garden no less worthy of our wonder and respect as an old old tree
+
+# Try to not view things in bipolar moral scales divided by human and nonhuman, unnatural and natural, fallen and unfallen. Instead, we should embrace full continuum of natural and cultural landscape which we permit ourselves to celebrate without needlessly deigrating others
+
+- A person with a clear heart  and open mind can experience the wilderrrness anywhere on earth. It is a quality of one's own subconsciousness. The planet is a wild place and always will be.
+
+- Wilderlife should not be there only, but also here.
