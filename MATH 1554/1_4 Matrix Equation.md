@@ -1,4 +1,4 @@
-# The Matrix Equation
+# 1.4 Matrix Equation 8/29
 ## Another way to formulate linear systems
 
 1.Equations  

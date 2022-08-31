@@ -1,5 +1,6 @@
 text_matrix = '''
-A \\vec{b}
+3
+-1
 '''
 
 

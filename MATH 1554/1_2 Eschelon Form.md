@@ -1,4 +1,4 @@
-# Section 1.2 Eschelon Form
+# Section 1.2 Eschelon Form 8/24
 
 ## Eschelon Form
 

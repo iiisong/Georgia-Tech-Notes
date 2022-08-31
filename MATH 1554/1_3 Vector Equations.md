@@ -1,4 +1,4 @@
-# 1.3 Vector Equations
+# 1.3 Vector Equations 8/26
 
 ## Topics
 We will cover these topics in this section
