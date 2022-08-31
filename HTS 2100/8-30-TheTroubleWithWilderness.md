@@ -123,7 +123,7 @@
 - Wilderness is completely a cultural invention
 
 
-# Wilderness embodies a dualist vision in which the human is outside natural
+## Wilderness embodies a dualist vision in which the human is outside natural
 - If true, our presense is its downfall
 
 - Worse is to live in urbanized areas but pretend our *real* home is in the wilderness
@@ -158,7 +158,7 @@
 
 - Tree in garden no less worthy of our wonder and respect as an old old tree
 
-# Try to not view things in bipolar moral scales divided by human and nonhuman, unnatural and natural, fallen and unfallen. Instead, we should embrace full continuum of natural and cultural landscape which we permit ourselves to celebrate without needlessly deigrating others
+- ## Try to not view things in bipolar moral scales divided by human and nonhuman, unnatural and natural, fallen and unfallen. Instead, we should embrace full continuum of natural and cultural landscape which we permit ourselves to celebrate without needlessly deigrating others
 
 - A person with a clear heart  and open mind can experience the wilderrrness anywhere on earth. It is a quality of one's own subconsciousness. The planet is a wild place and always will be.
 
