@@ -117,14 +117,16 @@ x_2\\[0.4em]
 x_3\\[0.4em]
 x_4\\[0.4em]
 \end{bmatrix}
-=\begin{bmatrix}
-& 1x_1 & 0x_2 & 2x_3 & 0x_4& \\[0.4em]
-& 0x_1 & 1x_2 & 0x_3 & 2x_4& \\[0.4em]
+=
+\begin{bmatrix}
+x_1+2x_3\\[0.4em]
+x_2+2x_4\\[0.4em]
 \end{bmatrix}
-= (
-x_1 + 2x_3
-x_2 + 2x_4
-)
+= 
+\begin{pmatrix}
+x_1+2x_3\\[0.4em]
+x_2+2x_4\\[0.4em]
+\end{pmatrix}
 $$
 > this is defined and has a solution
 
