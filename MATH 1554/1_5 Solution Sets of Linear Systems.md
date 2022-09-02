@@ -133,7 +133,9 @@ Suppose free variables for $A\vec{x}=\vec{0}$ are $x_k, ..., x_n$. Then all solu
 Parametric Vector Form
 $$x_1=2x_3$$
 $$x_2=-x_3$$
-$$x_3$$
+$$x_3 = x_3$$
+
+<br>
 
 $$\vec{x}=
 \begin{pmatrix}
@@ -164,7 +166,7 @@ $$
 \begin{bmatrix}
 & 1 & 3 & 1 & | & 9& \\[0.4em]
 & 2 & -1 & -5 & | & 11& \\[0.4em]
-& 1 & 0-2 & | & 6& \\[0.4em]
+& 1 & 0 & -2 & | & 6& \\[0.4em]
 \end{bmatrix}
 $$
 
@@ -296,7 +298,7 @@ Free and basic variables true for homogeneous or inhomogeneous as long as both c
 <img src="https://cdn.discordapp.com/attachments/1013967568610001027/1014605346301558894/unknown.png" width=500>
 
 
-**Q**: Wrot ethe line thru $\vec{a}$ parallel to $\vec{b}$ if $\vec{a} =
+**Q**: Wrote the line thru $\vec{a}$ parallel to $\vec{b}$ if $\vec{a} =
 \begin{pmatrix}
 0\\[0.4em]
 1\\[0.4em]
