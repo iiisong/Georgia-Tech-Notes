@@ -124,6 +124,47 @@ $$
 > $x_1 = 2x_3$  
 > $x_2 = -x_3$
 
+## Parametric Form
+$$
+\begin{bmatrix}
+& 1 & -2 & 3 & | & 4& \\[0.4em]
+& 0 & 0 & 0 & | & 0& \\[0.4em]
+\end{bmatrix}
+$$
+<br>
+
+$$x_1 = 4+2x_2-33x_3$$
+$$x_2 = x_2$$
+$$x_3=_3$$
+
+<br>
+
+$$
+x = 
+\begin{pmatrix}
+4\\[0.4em]
+0\\[0.4em]
+0\\[0.4em]
+\end{pmatrix}
++
+x_2
+\begin{pmatrix}
+2\\[0.4em]
+1\\[0.4em]
+0\\[0.4em]
+\end{pmatrix}
++ x_3
+\begin{pmatrix}
+-3\\[0.4em]
+0\\[0.4em]
+1\\[0.4em]
+\end{pmatrix}
+$$
+
+x_2, x_3 solution set to A
+
+constant vector changes for non-zero vector
+
 
 ## Parametric Forms, Homogeneous Case
 Suppose free variables for $A\vec{x}=\vec{0}$ are $x_k, ..., x_n$. Then all solutions to Ax=0 can be written as 
