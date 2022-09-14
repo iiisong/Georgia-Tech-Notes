@@ -470,12 +470,13 @@ $$\begin{bmatrix}
 
 ### Rotation
 - Rotating each vector counterclockwise
-- Transformation matrix follows  the form: 
+- Transformation matrix follows  the form:
 
 $$\begin{bmatrix}
     & cos(\theta) & -sin(\theta) & \\
     & sin(\theta) & cos(\theta) & \\
-    \end{bmatrix}$$
+\end{bmatrix}
+$$
 
 - At 0 degrees, the transformation is equal to the unit vecor
 
@@ -565,10 +566,10 @@ $$\begin{bmatrix}
             
         $$b=\begin{bmatrix} 2 \\ 4 \\ 3 \end{bmatrix}$$
                 
-        $$ A|b =\quad\begin{bmatrix}
-                    & 1 & 3 & 2 & | & 2 &\\
-                    & 0 & 1 & 4 & | & 4 &\\
-                    & 0 & 0 & 0 & | & 3 &\\
+        $$A|b=\quad\begin{bmatrix}
+        & 1 & 3 & 2 & | & 2 &\\
+        & 0 & 1 & 4 & | & 4 &\\
+        & 0 & 0 & 0 & | & 3 &\\
         \end{bmatrix}$$
                 
         <p align="center"><i>pivot entry in last column</i></p>
@@ -620,10 +621,10 @@ $$ A|b =\quad\begin{bmatrix}
         $$b=\begin{bmatrix} 2 \\ 4 \\ 3 \end{bmatrix}$$
 
         $$ A|b =\quad\begin{bmatrix}
-                    & 1 & 0 & 0 & 1 & | & 2 &\\
-                    & 0 & 1 & 0 & 0 &| & 4 &\\
-                    & 0 & 0 & 1 & 2 & | & 3 &\\
-                    \end{bmatrix}$$ 
+        & 1 & 0 & 0 & 1 & | & 2 &\\
+        & 0 & 1 & 0 & 0 &| & 4 &\\
+        & 0 & 0 & 1 & 2 & | & 3 &\\
+        \end{bmatrix}$$ 
                 
         $$ \begin{bmatrix}
             x_1 \\
