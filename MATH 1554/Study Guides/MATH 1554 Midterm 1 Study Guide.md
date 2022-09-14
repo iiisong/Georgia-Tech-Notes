@@ -152,12 +152,12 @@ $$e_1 = \begin{bmatrix}
      
 $$
      
-    <center><i> Representing identity matrix through e vectors</i><\center>
+<center><i> Representing identity matrix through e vectors</i><\center>
 <br>
 
 - When you transform a vector by an identity matrix it results in the original vector 
-$$
-    \begin{bmatrix}
+
+$$\begin{bmatrix}
     & 1 & 0 & \\
     & 0 & 1 & \\
     \end{bmatrix}
@@ -176,7 +176,7 @@ $$
     x_2  \\
     \end{bmatrix}$$
  
-    <center><i>Identity matrices does not change vector when transformed</i></center>
+<center><i>Identity matrices does not change vector when transformed</i></center>
 <br>
 <br>
 
@@ -233,11 +233,11 @@ $$\begin{bmatrix}
     x_2  \\
     \end{bmatrix} $$ 
  
-    <center><i>Horizontal compression by a factor of 1/3</i></center>
-    <br>
+<center><i>Horizontal compression by a factor of 1/3</i></center>
+<br>
 
- 
-    <br>
+
+<br>
  
     
  
@@ -260,9 +260,9 @@ $$\begin{bmatrix}
     3x_2  \\
     \end{bmatrix} $$ 
  
-    <center><i> Scale by a factor of 3</i></center>
-    <br>
-    <br>
+<center><i> Scale by a factor of 3</i></center>
+<br>
+<br>
 
 ### Reflection
 - Reflect across axis by negating the dimensions of the direction we are reflecting 
