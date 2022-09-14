@@ -30,8 +30,8 @@
     & 0 & 8 & 5 & 7 &\\
     & 0 & 0 & 0 & 9 &\\
     \end{bmatrix},\cdots$$ 
- 
 <center><i> these are some matrices in row echelon form</i></center> 
+
 <br>
 <br>
 
@@ -153,6 +153,7 @@ $$e_1 = \begin{bmatrix}
 $$
      
 <center><i> Representing identity matrix through e vectors</i><\center>
+
 <br>
 
 - When you transform a vector by an identity matrix it results in the original vector 
@@ -177,6 +178,7 @@ $$\begin{bmatrix}
     \end{bmatrix}$$
  
 <center><i>Identity matrices does not change vector when transformed</i></center>
+
 <br>
 <br>
 
@@ -234,6 +236,7 @@ $$\begin{bmatrix}
     \end{bmatrix} $$ 
  
 <center><i>Horizontal compression by a factor of 1/3</i></center>
+
 <br>
 
 
@@ -261,6 +264,7 @@ $$\begin{bmatrix}
     \end{bmatrix} $$ 
  
 <center><i> Scale by a factor of 3</i></center>
+
 <br>
 <br>
 
