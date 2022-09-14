@@ -114,7 +114,8 @@ $$
     & 0 & 0 & 0 & 1 & \\
     \end{bmatrix} \cdots$$
  
-<center><i> these are all identity matrices</i></center>
+<p align="center"><i> these are all identity matrices</i></p>
+
 <br>
 
 - Can also be represented in *e* form
