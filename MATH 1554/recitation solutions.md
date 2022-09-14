@@ -130,3 +130,157 @@ $$x = x_2
 1\\[0.4em]
 \end{bmatrix}
 $$
+
+
+<br>
+<br>
+
+# Worksheet 1.8
+**Worksheet Exercises**
+1. **Written Explanation Exercise**
+Suppose $T(x)=A(x)$ for all $x$ where $A$ is a matrix and $T$ is onto.  
+    1. What can we say about pivotal rows of $A$?
+
+        > Each row of A has a pivot variable because if there is a row on A with all zeros, there may be a non-zero in the corresponding row of b that would make the system inconsistent.
+    
+    <br>
+    
+    2. What can we say about the existence of solutions to $Ax=b$
+
+        > The transformations of x by A is the same set as the solutions of $Ax=b$
+
+    <br>
+    <br>
+
+2. Let $A$ be an $3\times4$. What must $c$ and $d$ be if we define the linear transformation $T : \R^c\rightarrow\R^d$ by $T(\vec{x})=A\vec{x}$?
+
+    > c = 4, d = 3
+    
+    <br>
+    <br>
+
+3. Let $T : \R^2\rightarrow\R^d$ be a linear transformation such that 
+$$T(   
+\begin{bmatrix}
+x_1\\[0.4em]
+x_2\\[0.4em]
+\end{bmatrix})= x_1 \begin{bmatrix}
+-1\\[0.4em]
+3\\[0.4em]
+\end{bmatrix} + x_2
+\begin{bmatrix}
+4\\[0.4em]
+-1\\[0.4em]
+\end{bmatrix}
+$$
+
+$\quad$ Construct a matrix $A$ so that $T(\vec{x})=A(\vec{x})$ for all vectors $\vec{x}$.
+> $$T(\begin{bmatrix}
+x_1\\[0.4em]
+x_2\\[0.4em]
+\end{bmatrix}) =\begin{bmatrix}
+        & -1 & 4& \\[0.4em]
+        & 3 & -1& \\[0.4em]
+        \end{bmatrix}\begin{bmatrix}
+x_1\\[0.4em]
+x_2\\[0.4em]
+\end{bmatrix}
+        $$
+
+<br>
+<br>
+
+4. Let $T : \R^5\rightarrow\R^4$ be a linear transformation such that
+$$T
+\begin{bmatrix}
+4\\[0.4em]
+0\\[0.4em]
+1\\[0.4em]
+0\\[0.4em]
+\end{bmatrix}
+= T
+\begin{bmatrix}
+0\\[0.4em]
+0\\[0.4em]
+1\\[0.4em]
+4\\[0.4em]
+\end{bmatrix} \neq 0
+$$
+$\quad$ Identify a nontrivial solution $\vec{x}$ to $T\vec{x}=\vec{0}$.
+
+> $$T(
+\begin{bmatrix}
+4\\[0.4em]
+0\\[0.4em]
+1\\[0.4em]
+0\\[0.4em]
+\end{bmatrix}) - T(\begin{bmatrix}
+0\\[0.4em]
+0\\[0.4em]
+1\\[0.4em]
+4\\[0.4em]
+\end{bmatrix}) = 0$$ 
+> 
+> $$T(
+\begin{bmatrix}
+4\\[0.4em]
+0\\[0.4em]
+1\\[0.4em]
+0\\[0.4em]
+\end{bmatrix} - \begin{bmatrix}
+0\\[0.4em]
+0\\[0.4em]
+1\\[0.4em]
+4\\[0.4em]
+\end{bmatrix}) = \vec{0}$$ 
+> 
+> $$T(
+\begin{bmatrix}
+4\\[0.4em]
+0\\[0.4em]
+0\\[0.4em]
+-4\\[0.4em]
+\end{bmatrix}) = \vec{0}$$ 
+>
+> $$\vec{x}= \begin{bmatrix}
+4\\[0.4em]
+0\\[0.4em]
+0\\[0.4em]
+-4\\[0.4em]
+\end{bmatrix}$$
+
+<br>
+<br>
+
+5. Let $T_A$ be the linear transformation with the matrix below. Match each choice of $A$ on the left with the geometric description of the action of $%T_A$.
+
+$\quad$ Rotation by $90\degree$, A shear, Projection onto $y$ axis, Dilation by 1/2
+
+
+$$
+\begin{bmatrix}
+& .5 & 0& \\[0.4em]
+& 0 & .5& \\[0.4em]
+\end{bmatrix}
+
+\begin{bmatrix}
+& 0 & 0& \\[0.4em]
+& 0 & 1& \\[0.4em]
+\end{bmatrix}
+
+\begin{bmatrix}
+& 0 & -1& \\[0.4em]
+& 1 & 0& \\[0.4em]
+\end{bmatrix}
+
+\begin{bmatrix}
+& 1 & 1& \\[0.4em]
+& 0 & 1& \\[0.4em]
+\end{bmatrix}
+$$
+
+> $\quad$ 1/2 dilation $\quad$ projection $\quad$ rotation 90  $\quad\quad$ shear  
+
+<br>
+<br>
+<br>

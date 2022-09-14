@@ -48,7 +48,7 @@ Provide a geometric interpretation
 
 
 LD -> there is a nontrivial (c1, c2) such that c1v1+c2v2=0
-Suppose $c_1 != 0$ Then $c_1\vec{v_1} =c_2\vec{v_2}$ -> $\vec{v_1}=(c_2/c_1)\vec{v_2}$ -> $\vec{v_1} || \vec{v_2}$
+Suppose $c_1 \neq 0$ Then $c_1\vec{v_1} =c_2\vec{v_2}$ -> $\vec{v_1}=(c_2/c_1)\vec{v_2}$ -> $\vec{v_1} || \vec{v_2}$
 
 Because parallel, span redudant!
 
@@ -275,7 +275,7 @@ at least 2 free variables
 LD
 
 
-n x k matrix, $k > n$ (fat and wide matrix)
+$n \times k$ matrix, $k > n$ (fat and wide matrix)
 
 at most n pivots, at least $k - n$ free variabls
 

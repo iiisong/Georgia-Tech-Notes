@@ -1,6 +1,8 @@
 text_vector = '''
-2
-3
+    1
+    0
+    \vdots
+    0
 '''
 
 
