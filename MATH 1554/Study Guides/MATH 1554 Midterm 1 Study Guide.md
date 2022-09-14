@@ -471,10 +471,12 @@ $$\begin{bmatrix}
 ### Rotation
 - Rotating each vector counterclockwise
 - Transformation matrix follows  the form: 
+
 $$\begin{bmatrix}
     & cos(\theta) & -sin(\theta) & \\
     & sin(\theta) & cos(\theta) & \\
     \end{bmatrix}$$
+
 - At 0 degrees, the transformation is equal to the unit vecor
 
 $$\begin{bmatrix}
@@ -567,8 +569,7 @@ $$\begin{bmatrix}
                     & 1 & 3 & 2 & | & 2 &\\
                     & 0 & 1 & 4 & | & 4 &\\
                     & 0 & 0 & 0 & | & 3 &\\
-                
-            \end{bmatrix}$$
+        \end{bmatrix}$$
                 
         <p align="center"><i>pivot entry in last column</i></p>
         <br>
