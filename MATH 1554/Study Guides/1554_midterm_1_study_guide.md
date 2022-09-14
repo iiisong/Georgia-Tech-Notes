@@ -1,5 +1,6 @@
 # MATH 1554 Midterm 1 Study Guide
 test 
+$2a=\vec{b}$ test
 ## 1.2
 ### Pivot Position
 - Leftmost non-zero entry in each row
