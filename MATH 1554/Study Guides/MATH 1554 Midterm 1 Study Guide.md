@@ -115,41 +115,31 @@ $$
     \end{bmatrix} \cdots$$
  
 <p align="center"><i> these are all identity matrices</i></p>
-
 <br>
 
 - Can also be represented in *e* form
 <br>
 
-    
-<br>
-     
-   
-     
 $$ M = \begin{bmatrix} & e_1 & e_2 & \cdots & e_n & \end{bmatrix}$$
      
-    
-     
 $$e_1 = \begin{bmatrix}
-                    1 \\
-                    0 \\
-                    0 \\
-                    \vdots \\
-                    \end {bmatrix}, \quad
-            e_2 = \begin{bmatrix}
-                    0 \\
-                    1 \\
-                    0 \\
-                    \vdots \\
-                    \end {bmatrix}, \quad\cdots, \quad
-            e_n = \begin{bmatrix}
-                    \vdots \\
-                    0 \\
-                    0 \\
-                    1 \\
-                    \end {bmatrix}
-     
-$$
+    1 \\
+    0 \\
+    0 \\
+    \vdots \\
+    \end {bmatrix}, \quad
+e_2 = \begin{bmatrix}
+    0 \\
+    1 \\
+    0 \\
+    \vdots \\
+    \end {bmatrix}, \quad\cdots, \quad
+e_n = \begin{bmatrix}
+    \vdots \\
+    0 \\
+    0 \\
+    1 \\
+    \end {bmatrix}$$
      
 <p align="center"><i> Representing identity matrix through e vectors</i><\center>
 
@@ -177,7 +167,6 @@ $$\begin{bmatrix}
     \end{bmatrix}$$
  
 <p align="center"><i>Identity matrices does not change vector when transformed</i></p>
-
 <br>
 <br>
 
@@ -208,9 +197,6 @@ $$\begin{bmatrix}
     \end{bmatrix} $$ 
  
 <p align="center"><i>Horizontal stretching by a factor of 3</i></p>
-    <br>
-
- 
     <br>
  
     
@@ -302,8 +288,6 @@ $$\begin{bmatrix}
 <p align="center"><i>reflection across the x axis</i></p>
     <br>
 
- 
-    <br>
  
     
  
@@ -397,8 +381,6 @@ $$\begin{bmatrix}
  
 <p align="center"><i>projection on the x axis</i></p>
     <br>
-
- 
     <br>
  
     
@@ -435,8 +417,6 @@ $$\begin{bmatrix}
 
 <p align="center"><img src="https://external-preview.redd.it/pGst_f94SvVkquxfA5kg-BgjJbIqJM8eseJhYZkKvu0.jpg?width=640&crop=smart&auto=webp&s=8851eb22ab7affc57ab65079f234e971a40aecf1" width=200></p>
     <br>
-
- 
     <br>
  
     
@@ -462,8 +442,6 @@ $$\begin{bmatrix}
  
 <p align="center"><i>shear of 3 along the x direction</i></p>
     <br>
-
- 
     <br>
  
     
@@ -506,10 +484,9 @@ $$\begin{bmatrix}
     \begin{bmatrix}
     & 1 & 0 & \\
     & 0 & 1 & \\
-    \end{bmatrix}$$
-
- 
-    <br>
+    \end{bmatrix}
+$$
+<br>
  
     
  
@@ -534,8 +511,6 @@ $$\begin{bmatrix}
  
 <p align="center"><i>rotation of pi clockwise </i></p>
     <br>
-
- 
     <br>
  
     
@@ -561,8 +536,7 @@ $$\begin{bmatrix}
  
 <p align="center"><i>rotation of 3pi/2 clockwise</i></p>
     <br>
-
-<br>
+    <br>
 
 ### Onto
 - For every $b$ in the codomain, there exist a vector $\vec{x}$ that transforms into it
@@ -573,17 +547,14 @@ $$\begin{bmatrix}
             
         <br>
             
-$$A = \begin{bmatrix}
+        $$A = \begin{bmatrix}
                 & 1 & 3 & 2 & \\
                 & 0 & 1 & 4 & \\
                 & 0 & 0 & 0 & \\
-            
-        \end{bmatrix}$$
-            
-        
-            
-    <p align="center"><i>zero bottom row</i></p>
-                <br>
+            \end{bmatrix}
+        $$
+        <p align="center"><i>zero bottom row</i></p>
+            <br>
 
         - 2. If $A$ has an empty row, there exist a $b$ where the pivot entry is in the last column of its augmented matrix
                 
@@ -599,15 +570,12 @@ $$A = \begin{bmatrix}
                 
             \end{bmatrix}$$
                 
-<p align="center"><i>pivot entry in last column</i></p>
-                <br>
+        <p align="center"><i>pivot entry in last column</i></p>
+        <br>
 
-        - 3. If the solution vector contains a pivot, then the equation is inconsistent, making it **not** onto.
-            
-<br>
-            
-         
-<br>
+        - 3. If the solution vector contains a pivot, then the equation is inconsistent, making it **not** onto.         
+        <br>     
+        <br>
          
     
          
@@ -620,10 +588,9 @@ $$ A|b =\quad\begin{bmatrix}
     
          
 <p align="center"><i>No vector exists that when transformed by A will result in the b, making it <b>not</b> onto</i></p>
-            <br>
-    
-    <br>
-    <br>
+        <br>
+        <br>
+        <br>
 
 
 ### One-To-One
@@ -632,10 +599,7 @@ $$ A|b =\quad\begin{bmatrix}
 - **Pivot in every column**
     - Derivation
         - 1. If there is not a pivot in every column of $A$, then $A$ has an free variable
-
             <br>
-
-         
             <br>
                 
         
@@ -646,12 +610,10 @@ $$ A|b =\quad\begin{bmatrix}
                     & 0 & 0 & 1 & 2 &\\
                     \end{bmatrix}$$
                 
-<p align="center"><i>right most vector is a free variable</i></p>
-                <br>
+        <p align="center"><i>right most vector is a free variable</i></p>
+        <br>
 
-        - 2. If $A$ has a column without pivot, the solution is non-unique
-
-                
+        - 2. If $A$ has a column without pivot, the solution is non-unique      
             <br>
 
         $$b=\begin{bmatrix} 2 \\ 4 \\ 3 \end{bmatrix}$$
@@ -663,34 +625,32 @@ $$ A|b =\quad\begin{bmatrix}
                     \end{bmatrix}$$ 
                 
         $$ \begin{bmatrix}
-                            x_1 \\
-                            x_2 \\
-                            x_3 \\
-                            x_4 \\
-                            \end {bmatrix}=
-                            x_4 \begin{bmatrix}
-                            -1 \\
-                            0 \\
-                            -2 \\
-                            1 \\
-                            \end{bmatrix}
-                            + \begin{bmatrix}
-                            2 \\
-                            4 \\
-                            3 \\
-                            0 \\
-                            \end{bmatrix} $$
+            x_1 \\
+            x_2 \\
+            x_3 \\
+            x_4 \\
+            \end {bmatrix}=
+            x_4 \begin{bmatrix}
+            -1 \\
+            0 \\
+            -2 \\
+            1 \\
+            \end{bmatrix}
+            + \begin{bmatrix}
+            2 \\
+            4 \\
+            3 \\
+            0 \\
+            \end{bmatrix} 
+        $$
                 
-<p align="center"><i>infinite possiblities for vector x as x4 can be anything</i></p>
-            <br>
-            <br>
+        <p align="center"><i>infinite possiblities for vector x as x4 can be anything</i></p>
+        <br>
+        <br>
 
-        - 3. If the solution vector is non-unique, then the equation is inconsistent, making it **not** one-to-one.
-            
+        - 3. If the solution vector is non-unique, then the equation is inconsistent, making it **not** one-to-one.      
             <br>
-
-         
-    <br> 
+            <br> 
          
     
          
