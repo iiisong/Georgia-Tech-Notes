@@ -114,7 +114,7 @@ $$
     & 0 & 0 & 0 & 1 & \\
     \end{bmatrix} \cdots$$
  
-    <center><i> these are all identity matrices</i></center>
+<center><i> these are all identity matrices</i></center>
  
     
     <br>
@@ -208,7 +208,7 @@ $$\begin{bmatrix}
     x_2  \\
     \end{bmatrix} $$ 
  
-    <center><i>Horizontal stretching by a factor of 3</i></center>
+<center><i>Horizontal stretching by a factor of 3</i></center>
     <br>
 
  
@@ -300,7 +300,7 @@ $$\begin{bmatrix}
     -x_2  \\
     \end{bmatrix} $$ 
  
-    <center><i>reflection across the x axis</i></center>
+<center><i>reflection across the x axis</i></center>
     <br>
 
  
@@ -327,7 +327,7 @@ $$\begin{bmatrix}
     x_2  \\
     \end{bmatrix} $$ 
  
-    <center><i>reflection across the y axis</i></center>
+<center><i>reflection across the y axis</i></center>
     <br>
     <br>
 
@@ -360,7 +360,7 @@ $$\begin{bmatrix}
     x_1  \\
     \end{bmatrix} $$ 
  
-    <center><i>reflection over y=x</i></center>
+<center><i>reflection over y=x</i></center>
     <br>
     <br>
 
@@ -396,7 +396,7 @@ $$\begin{bmatrix}
     0  \\
     \end{bmatrix} $$ 
  
-    <center><i>projection on the x axis</i></center>
+<center><i>projection on the x axis</i></center>
     <br>
 
  
@@ -423,7 +423,7 @@ $$\begin{bmatrix}
     x_2  \\
     \end{bmatrix} $$ 
  
-    <center><i>projection on the y axis</i></center>
+<center><i>projection on the y axis</i></center>
 
 <br>
 <br>
@@ -434,7 +434,7 @@ $$\begin{bmatrix}
     <br>
     <br>
 
-    <center><img src="https://external-preview.redd.it/pGst_f94SvVkquxfA5kg-BgjJbIqJM8eseJhYZkKvu0.jpg?width=640&crop=smart&auto=webp&s=8851eb22ab7affc57ab65079f234e971a40aecf1" width=200></center>
+<center><img src="https://external-preview.redd.it/pGst_f94SvVkquxfA5kg-BgjJbIqJM8eseJhYZkKvu0.jpg?width=640&crop=smart&auto=webp&s=8851eb22ab7affc57ab65079f234e971a40aecf1" width=200></center>
     <br>
 
  
@@ -461,7 +461,7 @@ $$\begin{bmatrix}
     x_2  \\
     \end{bmatrix} $$ 
  
-    <center><i>shear of 3 along the x direction</i></center>
+<center><i>shear of 3 along the x direction</i></center>
     <br>
 
  
@@ -488,7 +488,7 @@ $$\begin{bmatrix}
     3x_1 + x_2  \\
     \end{bmatrix} $$ 
  
-    <center><i>shear of 3 along the y direction</i></center>
+<center><i>shear of 3 along the y direction</i></center>
     <br>
 
 ### Rotation
@@ -533,7 +533,7 @@ $$\begin{bmatrix}
     x_2  \\
     \end{bmatrix} $$  
  
-    <center><i>rotation of pi clockwise </i></center>
+<center><i>rotation of pi clockwise </i></center>
     <br>
 
  
@@ -560,7 +560,7 @@ $$\begin{bmatrix}
     -x_1  \\
     \end{bmatrix} $$ 
  
-    <center><i>rotation of 3pi/2 clockwise</i></center>
+<center><i>rotation of 3pi/2 clockwise</i></center>
     <br>
 
 <br>
@@ -574,7 +574,7 @@ $$\begin{bmatrix}
             
         <br>
             
-    $$A = \begin{bmatrix}
+$$A = \begin{bmatrix}
                 & 1 & 3 & 2 & \\
                 & 0 & 1 & 4 & \\
                 & 0 & 0 & 0 & \\
@@ -583,7 +583,7 @@ $$\begin{bmatrix}
             
         
             
-        <center><i>zero bottom row</i></center>
+    <center><i>zero bottom row</i></center>
                 <br>
 
         - 2. If $A$ has an empty row, there exist a $b$ where the pivot entry is in the last column of its augmented matrix
@@ -600,15 +600,15 @@ $$\begin{bmatrix}
                 
             \end{bmatrix}$$
                 
-            <center><i>pivot entry in last column</i></center>
+<center><i>pivot entry in last column</i></center>
                 <br>
 
         - 3. If the solution vector contains a pivot, then the equation is inconsistent, making it **not** onto.
             
-            <br>
+<br>
             
          
-    <br>
+<br>
          
     
          
@@ -620,7 +620,7 @@ $$ A|b =\quad\begin{bmatrix}
          
     
          
-    <center><i>No vector exists that when transformed by A will result in the b, making it <b>not</b> onto</i></center>
+<center><i>No vector exists that when transformed by A will result in the b, making it <b>not</b> onto</i></center>
             <br>
     
     <br>
@@ -647,7 +647,7 @@ $$ A|b =\quad\begin{bmatrix}
                     & 0 & 0 & 1 & 2 &\\
                     \end{bmatrix}$$
                 
-            <center><i>right most vector is a free variable</i></center>
+<center><i>right most vector is a free variable</i></center>
                 <br>
 
         - 2. If $A$ has a column without pivot, the solution is non-unique
@@ -682,7 +682,7 @@ $$ A|b =\quad\begin{bmatrix}
                             0 \\
                             \end{bmatrix} $$
                 
-            <center><i>infinite possiblities for vector x as x4 can be anything</i></center>
+<center><i>infinite possiblities for vector x as x4 can be anything</i></center>
             <br>
             <br>
 
@@ -748,7 +748,7 @@ $$ \begin{bmatrix}
          
    
          
-    <center><i>At least 2 vectors (ex. m, n) can be transformed into b, making it <b>not</b> one-to-one</i></center>
+<center><i>At least 2 vectors (ex. m, n) can be transformed into b, making it <b>not</b> one-to-one</i></center>
             <br>
 
 ---
