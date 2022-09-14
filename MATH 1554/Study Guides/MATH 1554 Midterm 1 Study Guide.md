@@ -572,12 +572,7 @@ $$\begin{bmatrix}
     - Derivation
         - 1. If there is not a pivot in every row of $A$, then $A$ has an empty row
             
-            <br>
-            
-         
         <br>
-            
-    
             
     $$A = \begin{bmatrix}
                 & 1 & 3 & 2 & \\
