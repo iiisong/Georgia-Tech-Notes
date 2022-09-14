@@ -1,4 +1,4 @@
-# MATH 1554 Midterm 1 Study Guide
+# MATH 1554 Midterm 1 Study Guide (IN PROGRESS)
 
 ## 1.2
 ### Pivot Position
@@ -477,6 +477,7 @@ $$\begin{bmatrix}
 \end{bmatrix}
 $$
 <br>
+<br>
 
 - At 0 degrees, the transformation is equal to the unit vector
 
@@ -618,7 +619,11 @@ $$ A|b =\quad\begin{bmatrix}
         - 2. If $A$ has a column without pivot, the solution is non-unique      
             <br>
 
-        $$b=\begin{bmatrix} 2 \\ 4 \\ 3 \end{bmatrix}$$
+        $$b=\begin{bmatrix} 
+        2 \\
+        4 \\ 
+        3 \\
+        \end{bmatrix}$$
 
         $$ A|b =\quad\begin{bmatrix}
         & 1 & 0 & 0 & 1 & | & 2 &\\
