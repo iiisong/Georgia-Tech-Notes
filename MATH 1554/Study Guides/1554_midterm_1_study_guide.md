@@ -1,6 +1,5 @@
 # MATH 1554 Midterm 1 Study Guide
-test 
-$2a=\vec{b}$ test
+
 ## 1.2
 ### Pivot Position
 - Leftmost non-zero entry in each row
@@ -16,7 +15,7 @@ $2a=\vec{b}$ test
 
 > <br>
 > 
-> $$ \begin{bmatrix}
+ $$ \begin{bmatrix}
     & 1 & 2 & 2 &\\[0.4em]
     & 0 & 8 & 5 &\\[0.4em]
     & 0 & 0 & 3 &\\[0.4em]
