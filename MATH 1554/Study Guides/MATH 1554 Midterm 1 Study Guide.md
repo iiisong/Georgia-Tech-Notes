@@ -21,14 +21,14 @@
     & 0 & 0 & 3 &\\
     \end{bmatrix},
     \begin{bmatrix}
-    & 1 & 2 & 2 & 3 &\\[0.4em]
-    & 0 & 8 & 5 & 7 &\\[0.4em]
-    & 0 & 0 & 3 & 9 &\\[0.4em]
+    & 1 & 2 & 2 & 3 &\\
+    & 0 & 8 & 5 & 7 &\\
+    & 0 & 0 & 3 & 9 &\\
     \end{bmatrix},
     \begin{bmatrix} 
-    & 1 & 2 & 2 & 3 &\\[0.4em]
-    & 0 & 8 & 5 & 7 &\\[0.4em]
-    & 0 & 0 & 0 & 9 &\\[0.4em]
+    & 1 & 2 & 2 & 3 &\\
+    & 0 & 8 & 5 & 7 &\\
+    & 0 & 0 & 0 & 9 &\\
     \end{bmatrix},\cdots$$ 
  
 <center><i> these are some matrices in row echelon form</i></center> 
@@ -44,19 +44,19 @@
  <br>
  
  $$ \begin{bmatrix}
-    & 1 & 0 & 0 &\\[0.4em]
-    & 0 & 1 & 0 &\\[0.4em]
-    & 0 & 0 & 1 &\\[0.4em]
+    & 1 & 0 & 0 &\\
+    & 0 & 1 & 0 &\\
+    & 0 & 0 & 1 &\\
     \end{bmatrix},
     \begin{bmatrix}
-    & 1 & 0 & 0 & 3 &\\[0.4em]
-    & 0 & 1 & 0 & 7 &\\[0.4em]
-    & 0 & 0 & 1 & 9 &\\[0.4em]
+    & 1 & 0 & 0 & 3 &\\
+    & 0 & 1 & 0 & 7 &\\
+    & 0 & 0 & 1 & 9 &\\
     \end{bmatrix},
     \begin{bmatrix} 
-    & 1 & 0 & 2 & 0 &\\[0.4em]
-    & 0 & 1 & 5 & 0 &\\[0.4em]
-    & 0 & 0 & 0 & 1 &\\[0.4em]
+    & 1 & 0 & 2 & 0 &\\
+    & 0 & 1 & 5 & 0 &\\
+    & 0 & 0 & 0 & 1 &\\
     \end{bmatrix}, \cdots$$ 
 <center><i> these are some matrices in reduced row echelon form</i></center> 
 <br>
@@ -99,19 +99,19 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
  
     $$
     \begin{bmatrix}
-    & 1 & 0 & \\[0.4em]
-    & 0 & 1 & \\[0.4em]
+    & 1 & 0 & \\
+    & 0 & 1 & \\
     \end{bmatrix}, \quad
     \begin{bmatrix}
-    & 1 & 0 & 0 & \\[0.4em]
-    & 0 & 1 & 0 & \\[0.4em]
-    & 0 & 0 & 1 & \\[0.4em]
+    & 1 & 0 & 0 & \\
+    & 0 & 1 & 0 & \\
+    & 0 & 0 & 1 & \\
     \end{bmatrix}, \quad
     \begin{bmatrix}
-    & 1 & 0 & 0 & 0 & \\[0.4em]
-    & 0 & 1 & 0 & 0 & \\[0.4em]
-    & 0 & 0 & 1 & 0 & \\[0.4em]
-    & 0 & 0 & 0 & 1 & \\[0.4em]
+    & 1 & 0 & 0 & 0 & \\
+    & 0 & 1 & 0 & 0 & \\
+    & 0 & 0 & 1 & 0 & \\
+    & 0 & 0 & 0 & 1 & \\
     \end{bmatrix} \cdots$$
  
     <center><i> these are all identity matrices</i></center>
@@ -164,22 +164,22 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
  
     $$
     \begin{bmatrix}
-    & 1 & 0 & \\[0.4em]
-    & 0 & 1 & \\[0.4em]
+    & 1 & 0 & \\
+    & 0 & 1 & \\
     \end{bmatrix}
     \begin{bmatrix}
-    x_1  \\[0.4em]
-    x_2  \\[0.4em]
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-    & x_1 + 0x_2 & \\[0.4em]
-    & 0x_1+x_2 & \\[0.4em]
+    x_1  \\
+    x_2  \\
     \end{bmatrix}
     =
     \begin{bmatrix}
-    x_1  \\[0.4em]
-    x_2  \\[0.4em]
+    & x_1 + 0x_2 & \\
+    & 0x_1+x_2 & \\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+    x_1  \\
+    x_2  \\
     \end{bmatrix}$$
  
     <center><i>Identity matrices does not change vector when transformed</i></center>
@@ -198,22 +198,22 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     
  
     $$\begin{bmatrix}
-    & 3 & 0 & \\[0.4em]
-    & 0 & 1 & \\[0.4em]
+    & 3 & 0 & \\
+    & 0 & 1 & \\
     \end{bmatrix}
     \begin{bmatrix}
-    x_1  \\[0.4em]
-    x_2  \\[0.4em]
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-    & 3x_1 + 0x_2 & \\[0.4em]
-    & 0x_1+x_2 & \\[0.4em]
+    x_1  \\
+    x_2  \\
     \end{bmatrix}
     =
     \begin{bmatrix}
-    3x_1  \\[0.4em]
-    x_2  \\[0.4em]
+    & 3x_1 + 0x_2 & \\
+    & 0x_1+x_2 & \\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+    3x_1  \\
+    x_2  \\
     \end{bmatrix} $$ 
  
     <center><i>Horizontal stretching by a factor of 3</i></center>
@@ -225,22 +225,22 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     
  
     $$\begin{bmatrix}
-    & \frac{1}{3} & 0 & \\[0.4em]
-    & 0 & 1 & \\[0.4em]
+    & \frac{1}{3} & 0 & \\
+    & 0 & 1 & \\
     \end{bmatrix}
     \begin{bmatrix}
-    x_1  \\[0.4em]
-    x_2  \\[0.4em]
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-    & \frac{1}{3}x_1 + 0x_2 & \\[0.4em]
-    & 0x_1+x_2 & \\[0.4em]
+    x_1  \\
+    x_2  \\
     \end{bmatrix}
     =
     \begin{bmatrix}
-    \frac{1}{3}x_1  \\[0.4em]
-    x_2  \\[0.4em]
+    & \frac{1}{3}x_1 + 0x_2 & \\
+    & 0x_1+x_2 & \\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+    \frac{1}{3}x_1  \\
+    x_2  \\
     \end{bmatrix} $$ 
  
     <center><i>Horizontal compression by a factor of 1/3</i></center>
@@ -252,22 +252,22 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     
  
     $$\begin{bmatrix}
-    & 3 & 0 & \\[0.4em]
-    & 0 & 3 & \\[0.4em]
+    & 3 & 0 & \\
+    & 0 & 3 & \\
     \end{bmatrix}
     \begin{bmatrix}
-    x_1  \\[0.4em]
-    x_2  \\[0.4em]
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-    & 3x_1 + 0x_2 & \\[0.4em]
-    & 0x_1 + 3x_2 & \\[0.4em]
+    x_1  \\
+    x_2  \\
     \end{bmatrix}
     =
     \begin{bmatrix}
-    3x_1  \\[0.4em]
-    3x_2  \\[0.4em]
+    & 3x_1 + 0x_2 & \\
+    & 0x_1 + 3x_2 & \\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+    3x_1  \\
+    3x_2  \\
     \end{bmatrix} $$ 
  
     <center><i> Scale by a factor of 3</i></center>
@@ -288,22 +288,22 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     
  
     $$\begin{bmatrix}
-    & 1 & 0 & \\[0.4em]
-    & 0 & -1 & \\[0.4em]
+    & 1 & 0 & \\
+    & 0 & -1 & \\
     \end{bmatrix}
     \begin{bmatrix}
-    x_1  \\[0.4em]
-    x_2  \\[0.4em]
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-    & -x_1 + 0x_2 & \\[0.4em]
-    & 0x_1+x_2 & \\[0.4em]
+    x_1  \\
+    x_2  \\
     \end{bmatrix}
     =
     \begin{bmatrix}
-    x_1  \\[0.4em]
-    -x_2  \\[0.4em]
+    & -x_1 + 0x_2 & \\
+    & 0x_1+x_2 & \\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+    x_1  \\
+    -x_2  \\
     \end{bmatrix} $$ 
  
     <center><i>reflection across the x axis</i></center>
@@ -315,22 +315,22 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     
  
     $$\begin{bmatrix}
-    & -1 & 0 & \\[0.4em]
-    & 0 & 1 & \\[0.4em]
+    & -1 & 0 & \\
+    & 0 & 1 & \\
     \end{bmatrix}
     \begin{bmatrix}
-    x_1  \\[0.4em]
-    x_2  \\[0.4em]
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-    & -x_1 + 0x_2 & \\[0.4em]
-    & 0x_1+x_2 & \\[0.4em]
+    x_1  \\
+    x_2  \\
     \end{bmatrix}
     =
     \begin{bmatrix}
-    -x_1  \\[0.4em]
-    x_2  \\[0.4em]
+    & -x_1 + 0x_2 & \\
+    & 0x_1+x_2 & \\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+    -x_1  \\
+    x_2  \\
     \end{bmatrix} $$ 
  
     <center><i>reflection across the y axis</i></center>
@@ -348,22 +348,22 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     
  
     $$\begin{bmatrix}
-    & 0 & 1 & \\[0.4em]
-    & 1 & 0 & \\[0.4em]
+    & 0 & 1 & \\
+    & 1 & 0 & \\
     \end{bmatrix}
     \begin{bmatrix}
-    x_1  \\[0.4em]
-    x_2  \\[0.4em]
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-    & 0x_1 + x_2 & \\[0.4em]
-    & x_1+0x_2 & \\[0.4em]
+    x_1  \\
+    x_2  \\
     \end{bmatrix}
     =
     \begin{bmatrix}
-    x_2  \\[0.4em]
-    x_1  \\[0.4em]
+    & 0x_1 + x_2 & \\
+    & x_1+0x_2 & \\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+    x_2  \\
+    x_1  \\
     \end{bmatrix} $$ 
  
     <center><i>reflection over y=x</i></center>
@@ -384,22 +384,22 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     
  
     $$\begin{bmatrix}
-    & 1 & 0 & \\[0.4em]
-    & 0 & 0 & \\[0.4em]
+    & 1 & 0 & \\
+    & 0 & 0 & \\
     \end{bmatrix}
     \begin{bmatrix}
-    x_1  \\[0.4em]
-    x_2  \\[0.4em]
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-    & -x_1 + 0x_2 & \\[0.4em]
-    & 0x_1+0x_2 & \\[0.4em]
+    x_1  \\
+    x_2  \\
     \end{bmatrix}
     =
     \begin{bmatrix}
-    x_1  \\[0.4em]
-    0  \\[0.4em]
+    & -x_1 + 0x_2 & \\
+    & 0x_1+0x_2 & \\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+    x_1  \\
+    0  \\
     \end{bmatrix} $$ 
  
     <center><i>projection on the x axis</i></center>
@@ -411,22 +411,22 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     
  
     $$\begin{bmatrix}
-    & 0 & 0 & \\[0.4em]
-    & 0 & 1 & \\[0.4em]
+    & 0 & 0 & \\
+    & 0 & 1 & \\
     \end{bmatrix}
     \begin{bmatrix}
-    x_1  \\[0.4em]
-    x_2  \\[0.4em]
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-    & 0x_1 + 0x_2 & \\[0.4em]
-    & 0x_1+x_2 & \\[0.4em]
+    x_1  \\
+    x_2  \\
     \end{bmatrix}
     =
     \begin{bmatrix}
-    0  \\[0.4em]
-    x_2  \\[0.4em]
+    & 0x_1 + 0x_2 & \\
+    & 0x_1+x_2 & \\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+    0  \\
+    x_2  \\
     \end{bmatrix} $$ 
  
     <center><i>projection on the y axis</i></center>
@@ -449,22 +449,22 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     
  
     $$\begin{bmatrix}
-    & 1 & 3 & \\[0.4em]
-    & 0 & 1 & \\[0.4em]
+    & 1 & 3 & \\
+    & 0 & 1 & \\
     \end{bmatrix}
     \begin{bmatrix}
-    x_1  \\[0.4em]
-    x_2  \\[0.4em]
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-    & 1x_1 + 3x_2 & \\[0.4em]
-    & 0x_1+x_2 & \\[0.4em]
+    x_1  \\
+    x_2  \\
     \end{bmatrix}
     =
     \begin{bmatrix}
-    x_1 + 3x_2  \\[0.4em]
-    x_2  \\[0.4em]
+    & 1x_1 + 3x_2 & \\
+    & 0x_1+x_2 & \\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+    x_1 + 3x_2  \\
+    x_2  \\
     \end{bmatrix} $$ 
  
     <center><i>shear of 3 along the x direction</i></center>
@@ -476,22 +476,22 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     
  
     $$\begin{bmatrix}
-    & 1 & 0 & \\[0.4em]
-    & 3 & 1 & \\[0.4em]
+    & 1 & 0 & \\
+    & 3 & 1 & \\
     \end{bmatrix}
     \begin{bmatrix}
-    x_1  \\[0.4em]
-    x_2  \\[0.4em]
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-    & 1x_1 + 0x_2 & \\[0.4em]
-    & 3x_1+x_2 & \\[0.4em]
+    x_1  \\
+    x_2  \\
     \end{bmatrix}
     =
     \begin{bmatrix}
-    x_1  \\[0.4em]
-    3x_1 + x_2  \\[0.4em]
+    & 1x_1 + 0x_2 & \\
+    & 3x_1+x_2 & \\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+    x_1  \\
+    3x_1 + x_2  \\
     \end{bmatrix} $$ 
  
     <center><i>shear of 3 along the y direction</i></center>
@@ -501,18 +501,18 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
 - Rotating each vector counterclockwise
 - Transformation matrix follows  the form: 
     $$\begin{bmatrix}
-    & cos(\theta) & -sin(\theta) & \\[0.4em]
-    & sin(\theta) & cos(\theta) & \\[0.4em]
+    & cos(\theta) & -sin(\theta) & \\
+    & sin(\theta) & cos(\theta) & \\
     \end{bmatrix}$$
 - At 0 degrees, the transformation is equal to the unit vecor
 
     $$\begin{bmatrix}
-    & cos(0) & -sin(0) & \\[0.4em]
-    & sin(0) & cos(0) & \\[0.4em]
+    & cos(0) & -sin(0) & \\
+    & sin(0) & cos(0) & \\
     \end{bmatrix} = 
     \begin{bmatrix}
-    & 1 & 0 & \\[0.4em]
-    & 0 & 1 & \\[0.4em]
+    & 1 & 0 & \\
+    & 0 & 1 & \\
     \end{bmatrix}$$
 
  
@@ -521,22 +521,22 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     
  
     $$\begin{bmatrix}
-    & cos(\pi) & -sin(\pi) & \\[0.4em]
-    & sin(\pi) & cos(\pi) & \\[0.4em]
+    & cos(\pi) & -sin(\pi) & \\
+    & sin(\pi) & cos(\pi) & \\
     \end{bmatrix}
     \begin{bmatrix}
-    x_1  \\[0.4em]
-    x_2  \\[0.4em]
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-    & -x_1 + 0x_2 & \\[0.4em]
-    & 0x_1+1x_2 & \\[0.4em]
+    x_1  \\
+    x_2  \\
     \end{bmatrix}
     =
     \begin{bmatrix}
-    -x_1  \\[0.4em]
-    x_2  \\[0.4em]
+    & -x_1 + 0x_2 & \\
+    & 0x_1+1x_2 & \\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+    -x_1  \\
+    x_2  \\
     \end{bmatrix} $$  
  
     <center><i>rotation of pi clockwise </i></center>
@@ -548,22 +548,22 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     
  
     $$\begin{bmatrix}
-    & cos(\frac{3\pi}{2}) & -sin(\frac{3\pi}{2}) & \\[0.4em]
-    & sin(\frac{3\pi}{2}) & cos(\frac{3\pi}{2}) & \\[0.4em]
+    & cos(\frac{3\pi}{2}) & -sin(\frac{3\pi}{2}) & \\
+    & sin(\frac{3\pi}{2}) & cos(\frac{3\pi}{2}) & \\
     \end{bmatrix}
     \begin{bmatrix}
-    x_1  \\[0.4em]
-    x_2  \\[0.4em]
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-    & 0 + x_2 & \\[0.4em]
-    & -x_1+0x_2 & \\[0.4em]
+    x_1  \\
+    x_2  \\
     \end{bmatrix}
     =
     \begin{bmatrix}
-    x_2  \\[0.4em]
-    -x_1  \\[0.4em]
+    & 0 + x_2 & \\
+    & -x_1+0x_2 & \\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+    x_2  \\
+    -x_1  \\
     \end{bmatrix} $$ 
  
     <center><i>rotation of 3pi/2 clockwise</i></center>
@@ -586,9 +586,9 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     
             
         $$A = \begin{bmatrix}
-                & 1 & 3 & 2 & \\[0.4em]
-                & 0 & 1 & 4 & \\[0.4em]
-                & 0 & 0 & 0 & \\[0.4em]
+                & 1 & 3 & 2 & \\
+                & 0 & 1 & 4 & \\
+                & 0 & 0 & 0 & \\
             
         \end{bmatrix}$$
             
@@ -605,9 +605,9 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
             $$b=\begin{bmatrix} 2 \\ 4 \\ 3 \end{bmatrix}$$
                 
             $$ A|b =\quad\begin{bmatrix}
-                    & 1 & 3 & 2 & | & 2 &\\[0.4em]
-                    & 0 & 1 & 4 & | & 4 &\\[0.4em]
-                    & 0 & 0 & 0 & | & 3 &\\[0.4em]
+                    & 1 & 3 & 2 & | & 2 &\\
+                    & 0 & 1 & 4 & | & 4 &\\
+                    & 0 & 0 & 0 & | & 3 &\\
                 
             \end{bmatrix}$$
                 
@@ -624,9 +624,9 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     
          
     $$ A|b =\quad\begin{bmatrix}
-            & 1 & 3 & 2 & | & 2 &\\[0.4em]
-            & 0 & 1 & 4 & | & 4 &\\[0.4em]
-            & \textbf0 & \textbf0 & \textbf0 & | & \textbf3 &\\[0.4em]
+            & 1 & 3 & 2 & | & 2 &\\
+            & 0 & 1 & 4 & | & 4 &\\
+            & \textbf0 & \textbf0 & \textbf0 & | & \textbf3 &\\
             \end{bmatrix} $$
          
     
@@ -653,9 +653,9 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
         
                 
             $$A = \begin{bmatrix}
-                    & 1 & 0 & 0 & 1 & \\[0.4em]
-                    & 0 & 1 & 0 & 0 &\\[0.4em]
-                    & 0 & 0 & 1 & 2 &\\[0.4em]
+                    & 1 & 0 & 0 & 1 & \\
+                    & 0 & 1 & 0 & 0 &\\
+                    & 0 & 0 & 1 & 2 &\\
                     \end{bmatrix}$$
                 
             <center><i>right most vector is a free variable</i></center>
@@ -669,9 +669,9 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
             $$b=\begin{bmatrix} 2 \\ 4 \\ 3 \end{bmatrix}$$
 
             $$ A|b =\quad\begin{bmatrix}
-                    & 1 & 0 & 0 & 1 & | & 2 &\\[0.4em]
-                    & 0 & 1 & 0 & 0 &| & 4 &\\[0.4em]
-                    & 0 & 0 & 1 & 2 & | & 3 &\\[0.4em]
+                    & 1 & 0 & 0 & 1 & | & 2 &\\
+                    & 0 & 1 & 0 & 0 &| & 4 &\\
+                    & 0 & 0 & 1 & 2 & | & 3 &\\
                     \end{bmatrix}$$ 
                 
             $$ \begin{bmatrix}
@@ -722,9 +722,9 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
    
          
    $$ \begin{bmatrix}
-            & 1 & 0 & 0 & 1 & \\[0.4em]
-            & 0 & 1 & 0 & 0 &\\[0.4em]
-            & 0 & 0 & 1 & 2 &\\[0.4em]
+            & 1 & 0 & 0 & 1 & \\
+            & 0 & 1 & 0 & 0 &\\
+            & 0 & 0 & 1 & 2 &\\
             \end{bmatrix}
             \begin{bmatrix}
             1 \\
@@ -740,9 +740,9 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
             \end{bmatrix} $$
          
     $$ \begin{bmatrix}
-            & 1 & 0 & 0 & 1 & \\[0.4em]
-            & 0 & 1 & 0 & 0 &\\[0.4em]
-            & 0 & 0 & 1 & 2 &\\[0.4em]
+            & 1 & 0 & 0 & 1 & \\
+            & 0 & 1 & 0 & 0 &\\
+            & 0 & 0 & 1 & 2 &\\
             \end{bmatrix}
             \begin{bmatrix}
             -3 \\
