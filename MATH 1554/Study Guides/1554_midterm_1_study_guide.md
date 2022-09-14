@@ -1,5 +1,5 @@
 # MATH 1554 Midterm 1 Study Guide
-
+$ 3a + 2\vec{b}$
 ## 1.2
 ### Pivot Position
 - Leftmost non-zero entry in each row
@@ -29,7 +29,8 @@
     & 1 & 2 & 2 & 3 &\\[0.4em]
     & 0 & 8 & 5 & 7 &\\[0.4em]
     & 0 & 0 & 0 & 9 &\\[0.4em]
-    \end{bmatrix},\cdots$$ 
+    \end{bmatrix},\cdots$$  
+
     > <center><i> these are some matrices in row echelon form</i></center> 
 <br>
 <br>
