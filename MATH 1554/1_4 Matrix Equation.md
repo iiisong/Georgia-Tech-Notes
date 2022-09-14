@@ -1,19 +1,41 @@
 # 1.4 Matrix Equation 8/29
 ## Another way to formulate linear systems
 
-1.Equations  
+1. Equations  
     - Algebraic Stucture
-    - 
-2x_1 + 3x_2 = 7
-x_1 - x_2 = 5
+
+    $$2x_1 + 3x_2 = 7$$
+    $$x_1 - x_2 = 5$$
+
 
 2. Augmented Matrix  
     - Algorithmic structure
-2 3 | 7
-1 -1 | 5
+    $$
+    \begin{bmatrix}
+    & 2 & 3 & | & 7& \\[0.4em]
+    & 1 & -1 & | & 5& \\[0.4em]
+    \end{bmatrix}
+    $$
 
 3. Vector equation
     - Geometric Structure
+    
+    $$x_1
+    \begin{pmatrix}
+    2\\[0.4em]
+    1\\[0.4em]
+    \end{pmatrix}
+    + x_2
+    \begin{pmatrix}
+    3\\[0.4em]
+    -1\\[0.4em]
+    \end{pmatrix}
+    =
+    \begin{pmatrix}
+    7\\[0.4em]
+    5\\[0.4em]
+    \end{pmatrix}
+    $$
 
 # 4th Representation: **Matrix Equation Formulation**
 Taking a table and spitting a vector
@@ -23,9 +45,9 @@ Topics:
 2. The matrix product Ax
 
 ## Notations
-> $\in$ = belongs to
-> $R^n$ = the set of vectors with $n$ real-valued elements
-> $R^{m*n}$ - the set of real-valued matrices with $m$ rows and $n collumns
+> $\in$ = belongs to  
+> $R^n$ = the set of vectors with $n$ real-valued elements  
+> $R^{m*n}$ = the set of real-valued matrices with $m$ rows and $n$ collumns
 
 > > > > > insert onenote here
 
@@ -64,27 +86,37 @@ $$
 7\\[0.4em]
 \end{bmatrix}
 = 
-4(
-1
-0
-)3 (
-0 -3
-)7 (
--1
-3
-)= (
 4
-0
-)(
-0
--9
-)(
--7
-21
-)= (
--3
-12
-)
+\begin{pmatrix}
+1\\[0.4em]
+0\\[0.4em]
+\end{pmatrix}
++3 
+\begin{pmatrix}
+0\\[0.4em]
+-3\\[0.4em]
+\end{pmatrix}
++ 7 
+\begin{pmatrix}
+-1\\[0.4em]
+3\\[0.4em]
+\end{pmatrix}= 
+\begin{pmatrix}
+4\\[0.4em]
+0\\[0.4em]
+\end{pmatrix}+
+\begin{pmatrix}
+0\\[0.4em]
+-9\\[0.4em]
+\end{pmatrix}+
+\begin{pmatrix}
+-7\\[0.4em]
+21\\[0.4em]
+\end{pmatrix}= 
+\begin{pmatrix}
+-3\\[0.4em]
+12\\[0.4em]
+\end{pmatrix}
 $$
 
 ### This is not defined
