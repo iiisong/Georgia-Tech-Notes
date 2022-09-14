@@ -62,18 +62,61 @@
 <br>
 <br>
 
-### Solving Linear Systems with RREF
+### Augmented Matrix
 - Linear equations can be represented by matrices
- <br> 
+<br> 
 
- $$
+$$
 \begin{cases}
-x_1 + 2x_2 = 3\\
-\\
-\\
-\end{cases}
+x_1 + 2x_2 = 7 \\
+5x_1 + 3x_2 = 14 \\
+\end{cases} =
+\begin{bmatrix}
+& 1 & 2 & | & 7 & \\
+& 5 & 3 & | & 14 & \\
+\end{bmatrix}
 $$
 
+- Reduce matrix from REF to RREF through row operations
+
+
+$$
+\begin{bmatrix}
+& 1 & 2 & | & 7 & \\
+& 5 & 3 & | & 14 & \\
+\end{bmatrix}
+$$
+<br>
+
+> (2) - 5(1)
+$$
+\begin{bmatrix}
+& 1 & 2 & | & 7 & \\
+& 0 & -7 & | & -21 & \\
+\end{bmatrix}
+$$
+<br>
+
+> -1(2)
+$$
+\begin{bmatrix}
+& 1 & 2 & | & 7 & \\
+& 0 & 1 & | & 3 & \\
+\end{bmatrix}
+$$
+<br>
+
+> (1) - 2(2)
+$$
+\begin{bmatrix}
+& 1 & 0 & | & 1 & \\
+& 0 & 1 & | & 3 & \\
+\end{bmatrix}
+$$
+<br>
+
+> Solution:
+$$x_1 = 1, \quad x_2=3$$
 
 
 
@@ -220,10 +263,7 @@ $$\begin{bmatrix}
     \end{bmatrix} $$ 
  
 <p align="center"><i>Horizontal compression by a factor of 1/3</i></p>
-
 <br>
-
-
 <br>
  
     
@@ -259,8 +299,6 @@ $$\begin{bmatrix}
         - reflecting $y$ means negating $x$ 
     <br>
     <br>
-
- 
     <br>
  
     
@@ -469,6 +507,7 @@ $$\begin{bmatrix}
 
 ### Rotation
 - Rotating each vector counterclockwise
+    - **Clockwise is just negative angle !!**
 - Transformation matrix follows the form:
 
 $$\begin{bmatrix}
@@ -513,7 +552,7 @@ $$\begin{bmatrix}
     x_2  \\
     \end{bmatrix} $$  
  
-<p align="center"><i>rotation of pi clockwise </i></p>
+<p align="center"><i>rotation of pi counterclockwise </i></p>
     <br>
     <br>
  
@@ -536,6 +575,29 @@ $$\begin{bmatrix}
     \begin{bmatrix}
     x_2  \\
     -x_1  \\
+    \end{bmatrix} $$ 
+ 
+<p align="center"><i>rotation of 3pi/2 counterclockwise</i></p>
+    <br>
+    <br>
+
+$$\begin{bmatrix}
+    & cos(-\frac{3\pi}{2}) & -sin(-\frac{3\pi}{2}) & \\
+    & sin(-\frac{3\pi}{2}) & cos(-\frac{3\pi}{2}) & \\
+    \end{bmatrix}
+    \begin{bmatrix}
+    x_1  \\
+    x_2  \\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+    & 0 + x_2 & \\
+    & x_1+0x_2 & \\
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+    x_2  \\
+    x_1  \\
     \end{bmatrix} $$ 
  
 <p align="center"><i>rotation of 3pi/2 clockwise</i></p>
@@ -657,9 +719,6 @@ $$ A|b =\quad\begin{bmatrix}
 
         - 3. If the solution vector is non-unique, then the equation is inconsistent, making it **not** one-to-one.      
             <br>
-            <br> 
-         
-    
          
 $$ m = \begin{bmatrix}
             1 \\
