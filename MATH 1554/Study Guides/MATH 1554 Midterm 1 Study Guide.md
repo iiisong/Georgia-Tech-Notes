@@ -13,9 +13,9 @@
 - Pivots are always to the right of the leading coeeficient above it
     - Only zeros below each pivot
 
-> <br>
-> 
-> $$ \begin{bmatrix}
+ <br>
+ 
+ $$ \begin{bmatrix}
     & 1 & 2 & 2 &\\[0.4em]
     & 0 & 8 & 5 &\\[0.4em]
     & 0 & 0 & 3 &\\[0.4em]
@@ -30,7 +30,8 @@
     & 0 & 8 & 5 & 7 &\\[0.4em]
     & 0 & 0 & 0 & 9 &\\[0.4em]
     \end{bmatrix},\cdots$$ 
-    > <center><i> these are some matrices in row echelon form</i></center> 
+ 
+<center><i> these are some matrices in row echelon form</i></center> 
 <br>
 <br>
 
@@ -40,9 +41,9 @@
 - All pivot columns have zeros in all other entries apart from the pivot
 - **Each matrix has only one equivalent matrix in RREF form**
 
-> <br>
-> 
-> $$ \begin{bmatrix}
+ <br>
+ 
+ $$ \begin{bmatrix}
     & 1 & 0 & 0 &\\[0.4em]
     & 0 & 1 & 0 &\\[0.4em]
     & 0 & 0 & 1 &\\[0.4em]
@@ -57,15 +58,15 @@
     & 0 & 1 & 5 & 0 &\\[0.4em]
     & 0 & 0 & 0 & 1 &\\[0.4em]
     \end{bmatrix}, \cdots$$ 
-    > <center><i> these are some matrices in reduced row echelon form</i></center> 
+<center><i> these are some matrices in reduced row echelon form</i></center> 
 <br>
 <br>
 
 ### Solving Linear Systems with RREF
 - Linear equations can be represented by matrices
-> <br> 
->
-> $$
+ <br> 
+
+ $$
 \begin{cases}
 x_1 + 2x_2 = 3\\
 \\
@@ -91,9 +92,12 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
 - Square matrix where the diagonal elements are 1's while the rest are 0's
 - Each row represents a dimension
 
-    > <br>
-    > 
-    > $$
+ 
+    <br>
+ 
+    
+ 
+    $$
     \begin{bmatrix}
     & 1 & 0 & \\[0.4em]
     & 0 & 1 & \\[0.4em]
@@ -109,18 +113,25 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     & 0 & 0 & 1 & 0 & \\[0.4em]
     & 0 & 0 & 0 & 1 & \\[0.4em]
     \end{bmatrix} \cdots$$
-    > <center><i> these are all identity matrices</i></center>
-    > 
+ 
+    <center><i> these are all identity matrices</i></center>
+ 
+    
     <br>
 
     - Can also be represented in *e* form
     <br>
 
-        > <br>
-        >
-        > $$ M = \begin{bmatrix} & e_1 & e_2 & \cdots & e_n & \end{bmatrix}$$
-        > 
-        > $$e_1 = \begin{bmatrix}
+     
+    <br>
+     
+   
+     
+    $$ M = \begin{bmatrix} & e_1 & e_2 & \cdots & e_n & \end{bmatrix}$$
+     
+    
+     
+    $$e_1 = \begin{bmatrix}
                     1 \\
                     0 \\
                     0 \\
@@ -138,15 +149,20 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
                     0 \\
                     1 \\
                     \end {bmatrix}
-        > $$
-        > <center><i> Representing identity matrix through e vectors</i><\center>
+     
+    $$
+     
+    <center><i> Representing identity matrix through e vectors</i><\center>
 <br>
 
 - When you transform a vector by an identity matrix it results in the original vector
 
-    > <br>
-    >
-    > $$
+ 
+    <br>
+ 
+   
+ 
+    $$
     \begin{bmatrix}
     & 1 & 0 & \\[0.4em]
     & 0 & 1 & \\[0.4em]
@@ -165,7 +181,8 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     x_1  \\[0.4em]
     x_2  \\[0.4em]
     \end{bmatrix}$$
-    > <center><i>Identity matrices does not change vector when transformed</i></center>
+ 
+    <center><i>Identity matrices does not change vector when transformed</i></center>
 <br>
 <br>
 
@@ -175,9 +192,12 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     - Scaling without a direction specified implies all directions
     <br>
     <br>
-    > <br>
-    > 
-    > $$\begin{bmatrix}
+ 
+    <br>
+ 
+    
+ 
+    $$\begin{bmatrix}
     & 3 & 0 & \\[0.4em]
     & 0 & 1 & \\[0.4em]
     \end{bmatrix}
@@ -195,12 +215,16 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     3x_1  \\[0.4em]
     x_2  \\[0.4em]
     \end{bmatrix} $$ 
-    > <center><i>Horizontal stretching by a factor of 3</i></center>
+ 
+    <center><i>Horizontal stretching by a factor of 3</i></center>
     <br>
 
-    > <br>
-    > 
-    > $$\begin{bmatrix}
+ 
+    <br>
+ 
+    
+ 
+    $$\begin{bmatrix}
     & \frac{1}{3} & 0 & \\[0.4em]
     & 0 & 1 & \\[0.4em]
     \end{bmatrix}
@@ -218,12 +242,16 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     \frac{1}{3}x_1  \\[0.4em]
     x_2  \\[0.4em]
     \end{bmatrix} $$ 
-    > <center><i>Horizontal compression by a factor of 1/3</i></center>
+ 
+    <center><i>Horizontal compression by a factor of 1/3</i></center>
     <br>
 
-    > <br>
-    > 
-    > $$\begin{bmatrix}
+ 
+    <br>
+ 
+    
+ 
+    $$\begin{bmatrix}
     & 3 & 0 & \\[0.4em]
     & 0 & 3 & \\[0.4em]
     \end{bmatrix}
@@ -241,7 +269,8 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     3x_1  \\[0.4em]
     3x_2  \\[0.4em]
     \end{bmatrix} $$ 
-    > <center><i> Scale by a factor of 3</i></center>
+ 
+    <center><i> Scale by a factor of 3</i></center>
     <br>
     <br>
 
@@ -253,9 +282,12 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     <br>
     <br>
 
-    > <br>
-    > 
-    > $$\begin{bmatrix}
+ 
+    <br>
+ 
+    
+ 
+    $$\begin{bmatrix}
     & 1 & 0 & \\[0.4em]
     & 0 & -1 & \\[0.4em]
     \end{bmatrix}
@@ -273,12 +305,16 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     x_1  \\[0.4em]
     -x_2  \\[0.4em]
     \end{bmatrix} $$ 
-    > <center><i>reflection across the x axis</i></center>
+ 
+    <center><i>reflection across the x axis</i></center>
     <br>
 
-    > <br>
-    > 
-    > $$\begin{bmatrix}
+ 
+    <br>
+ 
+    
+ 
+    $$\begin{bmatrix}
     & -1 & 0 & \\[0.4em]
     & 0 & 1 & \\[0.4em]
     \end{bmatrix}
@@ -296,7 +332,8 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     -x_1  \\[0.4em]
     x_2  \\[0.4em]
     \end{bmatrix} $$ 
-    > <center><i>reflection across the y axis</i></center>
+ 
+    <center><i>reflection across the y axis</i></center>
     <br>
     <br>
 
@@ -305,9 +342,12 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
 -  equivalent to swapping the $x_1$ row with $x_2$ row
 - [Interactive Reflection off y=x](https://www.desmos.com/calculator/9iubjjzpu6)
 
-    > <br>
-    > 
-    > $$\begin{bmatrix}
+ 
+    <br>
+ 
+    
+ 
+    $$\begin{bmatrix}
     & 0 & 1 & \\[0.4em]
     & 1 & 0 & \\[0.4em]
     \end{bmatrix}
@@ -325,7 +365,8 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     x_2  \\[0.4em]
     x_1  \\[0.4em]
     \end{bmatrix} $$ 
-    > <center><i>reflection over y=x</i></center>
+ 
+    <center><i>reflection over y=x</i></center>
     <br>
     <br>
 
@@ -337,9 +378,12 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     <br>
     <br>
 
-    > <br>
-    > 
-    > $$\begin{bmatrix}
+ 
+    <br>
+ 
+    
+ 
+    $$\begin{bmatrix}
     & 1 & 0 & \\[0.4em]
     & 0 & 0 & \\[0.4em]
     \end{bmatrix}
@@ -357,12 +401,16 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     x_1  \\[0.4em]
     0  \\[0.4em]
     \end{bmatrix} $$ 
-    > <center><i>projection on the x axis</i></center>
+ 
+    <center><i>projection on the x axis</i></center>
     <br>
 
-    > <br>
-    > 
-    > $$\begin{bmatrix}
+ 
+    <br>
+ 
+    
+ 
+    $$\begin{bmatrix}
     & 0 & 0 & \\[0.4em]
     & 0 & 1 & \\[0.4em]
     \end{bmatrix}
@@ -380,7 +428,8 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     0  \\[0.4em]
     x_2  \\[0.4em]
     \end{bmatrix} $$ 
-    > <center><i>projection on the y axis</i></center>
+ 
+    <center><i>projection on the y axis</i></center>
 
 <br>
 <br>
@@ -394,9 +443,12 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     <center><img src="https://external-preview.redd.it/pGst_f94SvVkquxfA5kg-BgjJbIqJM8eseJhYZkKvu0.jpg?width=640&crop=smart&auto=webp&s=8851eb22ab7affc57ab65079f234e971a40aecf1" width=200></center>
     <br>
 
-    > <br>
-    > 
-    > $$\begin{bmatrix}
+ 
+    <br>
+ 
+    
+ 
+    $$\begin{bmatrix}
     & 1 & 3 & \\[0.4em]
     & 0 & 1 & \\[0.4em]
     \end{bmatrix}
@@ -414,12 +466,16 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     x_1 + 3x_2  \\[0.4em]
     x_2  \\[0.4em]
     \end{bmatrix} $$ 
-    > <center><i>shear of 3 along the x direction</i></center>
+ 
+    <center><i>shear of 3 along the x direction</i></center>
     <br>
 
-    > <br>
-    > 
-    > $$\begin{bmatrix}
+ 
+    <br>
+ 
+    
+ 
+    $$\begin{bmatrix}
     & 1 & 0 & \\[0.4em]
     & 3 & 1 & \\[0.4em]
     \end{bmatrix}
@@ -437,7 +493,8 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     x_1  \\[0.4em]
     3x_1 + x_2  \\[0.4em]
     \end{bmatrix} $$ 
-    > <center><i>shear of 3 along the y direction</i></center>
+ 
+    <center><i>shear of 3 along the y direction</i></center>
     <br>
 
 ### Rotation
@@ -458,9 +515,12 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     & 0 & 1 & \\[0.4em]
     \end{bmatrix}$$
 
-    > <br>
-    > 
-    > $$\begin{bmatrix}
+ 
+    <br>
+ 
+    
+ 
+    $$\begin{bmatrix}
     & cos(\pi) & -sin(\pi) & \\[0.4em]
     & sin(\pi) & cos(\pi) & \\[0.4em]
     \end{bmatrix}
@@ -478,12 +538,16 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     -x_1  \\[0.4em]
     x_2  \\[0.4em]
     \end{bmatrix} $$  
-    > <center><i>rotation of pi clockwise </i></center>
+ 
+    <center><i>rotation of pi clockwise </i></center>
     <br>
 
-    > <br>
-    > 
-    > $$\begin{bmatrix}
+ 
+    <br>
+ 
+    
+ 
+    $$\begin{bmatrix}
     & cos(\frac{3\pi}{2}) & -sin(\frac{3\pi}{2}) & \\[0.4em]
     & sin(\frac{3\pi}{2}) & cos(\frac{3\pi}{2}) & \\[0.4em]
     \end{bmatrix}
@@ -501,7 +565,8 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     x_2  \\[0.4em]
     -x_1  \\[0.4em]
     \end{bmatrix} $$ 
-    > <center><i>rotation of 3pi/2 clockwise</i></center>
+ 
+    <center><i>rotation of 3pi/2 clockwise</i></center>
     <br>
 
 <br>
@@ -515,44 +580,58 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
             
             <br>
             
-            > <br>
-            >
-            > $$A = \begin{bmatrix}
-            & 1 & 3 & 2 & \\[0.4em]
-            & 0 & 1 & 4 & \\[0.4em]
-            & 0 & 0 & 0 & \\[0.4em]
-            > \end{bmatrix}$$
-            > 
-            > <center><i>zero bottom row</i></center>
-            <br>
+         
+        <br>
+            
+    
+            
+        $$A = \begin{bmatrix}
+                & 1 & 3 & 2 & \\[0.4em]
+                & 0 & 1 & 4 & \\[0.4em]
+                & 0 & 0 & 0 & \\[0.4em]
+            
+        \end{bmatrix}$$
+            
+        
+            
+        <center><i>zero bottom row</i></center>
+                <br>
 
         - 2. If $A$ has an empty row, there exist a $b$ where the pivot entry is in the last column of its augmented matrix
+                
+            <br>
+            <br>
             
-            <br>
+            $$b=\begin{bmatrix} 2 \\ 4 \\ 3 \end{bmatrix}$$
+                
+            $$ A|b =\quad\begin{bmatrix}
+                    & 1 & 3 & 2 & | & 2 &\\[0.4em]
+                    & 0 & 1 & 4 & | & 4 &\\[0.4em]
+                    & 0 & 0 & 0 & | & 3 &\\[0.4em]
+                
+            \end{bmatrix}$$
+                
+            <center><i>pivot entry in last column</i></center>
+                <br>
 
-            > <br>
-            >
-            > $$b=\begin{bmatrix} 2 \\ 4 \\ 3 \end{bmatrix}$$
-            > $$ A|b =\quad\begin{bmatrix}
-            & 1 & 3 & 2 & | & 2 &\\[0.4em]
-            & 0 & 1 & 4 & | & 4 &\\[0.4em]
-            & 0 & 0 & 0 & | & 3 &\\[0.4em]
-            > \end{bmatrix}$$
-            > <center><i>pivot entry in last column</i></center>
-            <br>
         - 3. If the solution vector contains a pivot, then the equation is inconsistent, making it **not** onto.
             
             <br>
             
-            > <br>
-            > 
-            > $$ A|b =\quad\begin{bmatrix}
+         
+    <br>
+         
+    
+         
+    $$ A|b =\quad\begin{bmatrix}
             & 1 & 3 & 2 & | & 2 &\\[0.4em]
             & 0 & 1 & 4 & | & 4 &\\[0.4em]
             & \textbf0 & \textbf0 & \textbf0 & | & \textbf3 &\\[0.4em]
             \end{bmatrix} $$
-            > 
-            > <center><i>No vector exists that when transformed by A will result in the b, making it <b>not</b> onto</i></center>
+         
+    
+         
+    <center><i>No vector exists that when transformed by A will result in the b, making it <b>not</b> onto</i></center>
             <br>
     
     <br>
@@ -568,57 +647,66 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
 
             <br>
 
-            > <br>
-            >
-            > $$A = \begin{bmatrix}
-            & 1 & 0 & 0 & 1 & \\[0.4em]
-            & 0 & 1 & 0 & 0 &\\[0.4em]
-            & 0 & 0 & 1 & 2 &\\[0.4em]
-            \end{bmatrix}$$
-            > <center><i>right most vector is a free variable</i></center>
+         
             <br>
+                
+        
+                
+            $$A = \begin{bmatrix}
+                    & 1 & 0 & 0 & 1 & \\[0.4em]
+                    & 0 & 1 & 0 & 0 &\\[0.4em]
+                    & 0 & 0 & 1 & 2 &\\[0.4em]
+                    \end{bmatrix}$$
+                
+            <center><i>right most vector is a free variable</i></center>
+                <br>
 
         - 2. If $A$ has a column without pivot, the solution is non-unique
 
-            ><br>
-            >
-            > $$b=\begin{bmatrix} 2 \\ 4 \\ 3 \end{bmatrix}$$
-            > $$ A|b =\quad\begin{bmatrix}
-            & 1 & 0 & 0 & 1 & | & 2 &\\[0.4em]
-            & 0 & 1 & 0 & 0 &| & 4 &\\[0.4em]
-            & 0 & 0 & 1 & 2 & | & 3 &\\[0.4em]
-            \end{bmatrix}$$
-            >
-            >
-            > $$ \begin{bmatrix}
-                    x_1 \\
-                    x_2 \\
-                    x_3 \\
-                    x_4 \\
-                    \end {bmatrix}=
-                    x_4 \begin{bmatrix}
-                    -1 \\
-                    0 \\
-                    -2 \\
-                    1 \\
-                    \end{bmatrix}
-                    + \begin{bmatrix}
-                    2 \\
-                    4 \\
-                    3 \\
-                    0 \\
-                    \end{bmatrix} $$
-            >
-            > <center><i>infinite possiblities for vector x as x4 can be anything</i></center>
+                
+            <br>
+
+            $$b=\begin{bmatrix} 2 \\ 4 \\ 3 \end{bmatrix}$$
+
+            $$ A|b =\quad\begin{bmatrix}
+                    & 1 & 0 & 0 & 1 & | & 2 &\\[0.4em]
+                    & 0 & 1 & 0 & 0 &| & 4 &\\[0.4em]
+                    & 0 & 0 & 1 & 2 & | & 3 &\\[0.4em]
+                    \end{bmatrix}$$ 
+                
+            $$ \begin{bmatrix}
+                            x_1 \\
+                            x_2 \\
+                            x_3 \\
+                            x_4 \\
+                            \end {bmatrix}=
+                            x_4 \begin{bmatrix}
+                            -1 \\
+                            0 \\
+                            -2 \\
+                            1 \\
+                            \end{bmatrix}
+                            + \begin{bmatrix}
+                            2 \\
+                            4 \\
+                            3 \\
+                            0 \\
+                            \end{bmatrix} $$
+                
+            <center><i>infinite possiblities for vector x as x4 can be anything</i></center>
+            <br>
             <br>
 
         - 3. If the solution vector is non-unique, then the equation is inconsistent, making it **not** one-to-one.
             
             <br>
 
-            > <br> 
-            > 
-            > $$ m = \begin{bmatrix}
+         
+    <br> 
+         
+    
+         
+    $$ m = \begin{bmatrix}
             1 \\
             4 \\
             1 \\
@@ -630,8 +718,10 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
             -7 \\
             5 \\
             \end{bmatrix} $$
-            >
-            >$$ \begin{bmatrix}
+         
+   
+         
+   $$ \begin{bmatrix}
             & 1 & 0 & 0 & 1 & \\[0.4em]
             & 0 & 1 & 0 & 0 &\\[0.4em]
             & 0 & 0 & 1 & 2 &\\[0.4em]
@@ -648,7 +738,8 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
             3 \\
             0 \\
             \end{bmatrix} $$
-            > $$ \begin{bmatrix}
+         
+    $$ \begin{bmatrix}
             & 1 & 0 & 0 & 1 & \\[0.4em]
             & 0 & 1 & 0 & 0 &\\[0.4em]
             & 0 & 0 & 1 & 2 &\\[0.4em]
@@ -665,8 +756,10 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
             3 \\
             0 \\
             \end{bmatrix} $$
-            >
-            > <center><i>At least 2 vectors (ex. m, n) can be transformed into b, making it <b>not</b> one-to-one</i></center>
+         
+   
+         
+    <center><i>At least 2 vectors (ex. m, n) can be transformed into b, making it <b>not</b> one-to-one</i></center>
             <br>
 
 ---
