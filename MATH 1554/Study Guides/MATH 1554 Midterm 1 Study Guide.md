@@ -141,8 +141,7 @@ e_n = \begin{bmatrix}
     1 \\
     \end {bmatrix}$$
      
-<p align="center"><i> Representing identity matrix through e vectors</i><\center>
-
+<p align="center"><i> Representing identity matrix through e vectors</i></p>
 <br>
 
 - When you transform a vector by an identity matrix it results in the original vector 
@@ -470,15 +469,16 @@ $$\begin{bmatrix}
 
 ### Rotation
 - Rotating each vector counterclockwise
-- Transformation matrix follows  the form:
+- Transformation matrix follows the form:
 
 $$\begin{bmatrix}
     & cos(\theta) & -sin(\theta) & \\
     & sin(\theta) & cos(\theta) & \\
 \end{bmatrix}
 $$
+<br>
 
-- At 0 degrees, the transformation is equal to the unit vecor
+- At 0 degrees, the transformation is equal to the unit vector
 
 $$\begin{bmatrix}
     & cos(0) & -sin(0) & \\
