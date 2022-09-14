@@ -115,15 +115,13 @@ $$
     \end{bmatrix} \cdots$$
  
 <center><i> these are all identity matrices</i></center>
- 
+<br>
+
+- Can also be represented in *e* form
+<br>
+
     
-    <br>
-
-    - Can also be represented in *e* form
-    <br>
-
-     
-    <br>
+<br>
      
    
      
