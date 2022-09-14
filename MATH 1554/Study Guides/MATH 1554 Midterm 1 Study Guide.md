@@ -97,7 +97,7 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
  
     
  
-    $$
+$$
     \begin{bmatrix}
     & 1 & 0 & \\
     & 0 & 1 & \\
@@ -127,11 +127,11 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
      
    
      
-    $$ M = \begin{bmatrix} & e_1 & e_2 & \cdots & e_n & \end{bmatrix}$$
+$$ M = \begin{bmatrix} & e_1 & e_2 & \cdots & e_n & \end{bmatrix}$$
      
     
      
-    $$e_1 = \begin{bmatrix}
+$$e_1 = \begin{bmatrix}
                     1 \\
                     0 \\
                     0 \\
@@ -150,19 +150,13 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
                     1 \\
                     \end {bmatrix}
      
-    $$
+$$
      
     <center><i> Representing identity matrix through e vectors</i><\center>
 <br>
 
-- When you transform a vector by an identity matrix it results in the original vector
-
- 
-    <br>
- 
-   
- 
-    $$
+- When you transform a vector by an identity matrix it results in the original vector 
+$$
     \begin{bmatrix}
     & 1 & 0 & \\
     & 0 & 1 & \\
@@ -193,11 +187,7 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
     <br>
     <br>
  
-    <br>
- 
-    
- 
-    $$\begin{bmatrix}
+$$\begin{bmatrix}
     & 3 & 0 & \\
     & 0 & 1 & \\
     \end{bmatrix}
@@ -224,7 +214,7 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
  
     
  
-    $$\begin{bmatrix}
+$$\begin{bmatrix}
     & \frac{1}{3} & 0 & \\
     & 0 & 1 & \\
     \end{bmatrix}
@@ -251,7 +241,7 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
  
     
  
-    $$\begin{bmatrix}
+$$\begin{bmatrix}
     & 3 & 0 & \\
     & 0 & 3 & \\
     \end{bmatrix}
@@ -287,7 +277,7 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
  
     
  
-    $$\begin{bmatrix}
+$$\begin{bmatrix}
     & 1 & 0 & \\
     & 0 & -1 & \\
     \end{bmatrix}
@@ -314,7 +304,7 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
  
     
  
-    $$\begin{bmatrix}
+$$\begin{bmatrix}
     & -1 & 0 & \\
     & 0 & 1 & \\
     \end{bmatrix}
@@ -347,7 +337,7 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
  
     
  
-    $$\begin{bmatrix}
+$$\begin{bmatrix}
     & 0 & 1 & \\
     & 1 & 0 & \\
     \end{bmatrix}
@@ -383,7 +373,7 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
  
     
  
-    $$\begin{bmatrix}
+$$\begin{bmatrix}
     & 1 & 0 & \\
     & 0 & 0 & \\
     \end{bmatrix}
@@ -410,7 +400,7 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
  
     
  
-    $$\begin{bmatrix}
+$$\begin{bmatrix}
     & 0 & 0 & \\
     & 0 & 1 & \\
     \end{bmatrix}
@@ -448,7 +438,7 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
  
     
  
-    $$\begin{bmatrix}
+$$\begin{bmatrix}
     & 1 & 3 & \\
     & 0 & 1 & \\
     \end{bmatrix}
@@ -475,7 +465,7 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
  
     
  
-    $$\begin{bmatrix}
+$$\begin{bmatrix}
     & 1 & 0 & \\
     & 3 & 1 & \\
     \end{bmatrix}
@@ -500,13 +490,13 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
 ### Rotation
 - Rotating each vector counterclockwise
 - Transformation matrix follows  the form: 
-    $$\begin{bmatrix}
+$$\begin{bmatrix}
     & cos(\theta) & -sin(\theta) & \\
     & sin(\theta) & cos(\theta) & \\
     \end{bmatrix}$$
 - At 0 degrees, the transformation is equal to the unit vecor
 
-    $$\begin{bmatrix}
+$$\begin{bmatrix}
     & cos(0) & -sin(0) & \\
     & sin(0) & cos(0) & \\
     \end{bmatrix} = 
@@ -520,7 +510,7 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
  
     
  
-    $$\begin{bmatrix}
+$$\begin{bmatrix}
     & cos(\pi) & -sin(\pi) & \\
     & sin(\pi) & cos(\pi) & \\
     \end{bmatrix}
@@ -547,7 +537,7 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
  
     
  
-    $$\begin{bmatrix}
+$$\begin{bmatrix}
     & cos(\frac{3\pi}{2}) & -sin(\frac{3\pi}{2}) & \\
     & sin(\frac{3\pi}{2}) & cos(\frac{3\pi}{2}) & \\
     \end{bmatrix}
@@ -585,7 +575,7 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
             
     
             
-        $$A = \begin{bmatrix}
+    $$A = \begin{bmatrix}
                 & 1 & 3 & 2 & \\
                 & 0 & 1 & 4 & \\
                 & 0 & 0 & 0 & \\
@@ -602,9 +592,9 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
             <br>
             <br>
             
-            $$b=\begin{bmatrix} 2 \\ 4 \\ 3 \end{bmatrix}$$
+        $$b=\begin{bmatrix} 2 \\ 4 \\ 3 \end{bmatrix}$$
                 
-            $$ A|b =\quad\begin{bmatrix}
+        $$ A|b =\quad\begin{bmatrix}
                     & 1 & 3 & 2 & | & 2 &\\
                     & 0 & 1 & 4 & | & 4 &\\
                     & 0 & 0 & 0 & | & 3 &\\
@@ -623,7 +613,7 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
          
     
          
-    $$ A|b =\quad\begin{bmatrix}
+$$ A|b =\quad\begin{bmatrix}
             & 1 & 3 & 2 & | & 2 &\\
             & 0 & 1 & 4 & | & 4 &\\
             & \textbf0 & \textbf0 & \textbf0 & | & \textbf3 &\\
@@ -652,7 +642,7 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
                 
         
                 
-            $$A = \begin{bmatrix}
+        $$A = \begin{bmatrix}
                     & 1 & 0 & 0 & 1 & \\
                     & 0 & 1 & 0 & 0 &\\
                     & 0 & 0 & 1 & 2 &\\
@@ -666,15 +656,15 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
                 
             <br>
 
-            $$b=\begin{bmatrix} 2 \\ 4 \\ 3 \end{bmatrix}$$
+        $$b=\begin{bmatrix} 2 \\ 4 \\ 3 \end{bmatrix}$$
 
-            $$ A|b =\quad\begin{bmatrix}
+        $$ A|b =\quad\begin{bmatrix}
                     & 1 & 0 & 0 & 1 & | & 2 &\\
                     & 0 & 1 & 0 & 0 &| & 4 &\\
                     & 0 & 0 & 1 & 2 & | & 3 &\\
                     \end{bmatrix}$$ 
                 
-            $$ \begin{bmatrix}
+        $$ \begin{bmatrix}
                             x_1 \\
                             x_2 \\
                             x_3 \\
@@ -706,7 +696,7 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
          
     
          
-    $$ m = \begin{bmatrix}
+$$ m = \begin{bmatrix}
             1 \\
             4 \\
             1 \\
@@ -739,7 +729,7 @@ $$\quad T(\vec{x}) = b \quad\rightarrow\quad A\vec{x} =b$$
             0 \\
             \end{bmatrix} $$
          
-    $$ \begin{bmatrix}
+$$ \begin{bmatrix}
             & 1 & 0 & 0 & 1 & \\
             & 0 & 1 & 0 & 0 &\\
             & 0 & 0 & 1 & 2 &\\
