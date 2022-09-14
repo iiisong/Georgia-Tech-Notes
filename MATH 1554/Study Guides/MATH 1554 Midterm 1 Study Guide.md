@@ -15,7 +15,7 @@
 
  <br>
  
- $$ \begin{bmatrix}
+$$ \begin{bmatrix}
     & 1 & 2 & 2 &\\
     & 0 & 8 & 5 &\\
     & 0 & 0 & 3 &\\
@@ -118,6 +118,7 @@ $$
 <br>
 
 > Solution:
+
 $$x_1 = 1, \quad x_2=3$$
 
 
@@ -629,7 +630,11 @@ $$\begin{bmatrix}
             <br>
             <br>
             
-        $$b=\begin{bmatrix} 2 \\ 4 \\ 3 \end{bmatrix}$$
+        $$b=\begin{bmatrix} 
+        2 \\ 
+        4 \\ 
+        3 \\
+        \end{bmatrix}$$
                 
         $$A|b=\quad\begin{bmatrix}
         & 1 & 3 & 2 & | & 2 &\\
