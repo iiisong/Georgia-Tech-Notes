@@ -1,8 +1,6 @@
 text_matrix = '''
-1 0 0 0
-0 1 0 0
-0 0 1 0
-0 0 0 1 
+a b 
+c d
 '''
 
 text_matrix
@@ -30,10 +28,10 @@ def text_to_matrix (text_matrix):
         row_text += " & ".join(elems)
         
         if len(elems) > 1:
-            row_text += " & \\\[0.4em]"
+            row_text += " & \\\\"
         
         else:
-            row_text += "\\\[0.4em]"
+            row_text += "\\\\"
             
         
         result += row_text

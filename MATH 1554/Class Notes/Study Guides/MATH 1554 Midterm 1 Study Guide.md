@@ -121,7 +121,75 @@ $$
 
 $$x_1 = 1, \quad x_2=3$$
 
+### Basic Variables
+- Basic variables are variables with a pivot column, they are contrasted with free variables
 
+$$\begin{bmatrix} 
+& 1 & 0 & 2 & 0 &\\
+& 0 & 1 & 5 & 0 &\\
+& 0 & 0 & 0 & 1 &\\
+\end{bmatrix}$$
+<p align="center"><i>Basic variables are x1, x2, and x4</i></p>
+<br>
+
+### Free Variables
+- Free variables are variables without a pivot column, they are contrasted with basic variables
+    - They are called free variables because they are not tied to a certain value a pivot is
+
+$$\begin{bmatrix} 
+& 1 & 0 & 2 & 0 &\\
+& 0 & 1 & 5 & 0 &\\
+& 0 & 0 & 0 & 1 &\\
+\end{bmatrix}$$
+<p align="center"><i>Basic variables are x1, x2, and x4</i></p>
+<br>
+
+### Consistency
+- Consistency is if there exist a solution to the system of equation
+- In other words, $0 \neq$ non-zero number 
+    - this often occurs when there is a zero row and the result vector has a non-zero in that row
+- **Consistent if pivot in every row**
+    - note: The existence of a zero row does not mean a matrix is inconsistent
+$$\begin{bmatrix} 
+& 1 & 0 & 2 & | & 1 & \\
+& 0 & 1 & 5 & | & 3 & \\
+& 0 & 0 & 1 & | & 4 & \\
+\end{bmatrix}$$
+<p align="center"><i>a consistent system</i></p>
+<br>
+
+$$\begin{bmatrix} 
+& 1 & 0 & 2 & | & 1 & \\
+& 0 & 1 & 5 & | & 3 & \\
+& 0 & 0 & 0 & | & 4 & \\
+\end{bmatrix}$$
+<p align="center"><i>an inconsistent system (0 != 4)</i></p>
+
+
+### Uniqueness
+- A matrix is unique when there is only 1 result possible result vector for the system
+    - A free variable makes a system non-unique
+- **Unique if a pivot in every column**
+    - No free variables
+- **Not unique if a there does not exist a pivot in every column**
+- Note: only applies when consistent
+$$\begin{bmatrix} 
+& 1 & 0 & 2 & | & 1 & \\
+& 0 & 1 & 5 & | & 3 & \\
+& 0 & 0 & 1 & | & 4 & \\
+\end{bmatrix}$$
+<p align="center"><i>an unique system</i></p>
+<br>
+
+$$\begin{bmatrix} 
+& 1 & 0 & 2 & | & 1 & \\
+& 0 & 1 & 5 & | & 3 & \\
+\end{bmatrix}$$
+<p align="center"><i>a non-unique system (x3 free variable)</i></p>
+<br>
+<br>
+
+###
 
 ---
 ## 1.9
