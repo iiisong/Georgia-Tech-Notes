@@ -1,0 +1,128 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{setspace}
+
+\title{CS2050 Spring 2023 Homework 1}
+\author{Due: January 20 @ 11:59 PM}
+\date{Released: January 13}
+
+\newcommand{\pt}[1]{\textcolor{blue}{(#1 points)}}
+
+\newcommand{\pte}[1]{\textcolor{blue}{(#1 points each)}}
+
+\newenvironment{solution}
+{
+\par
+\color{blue}
+\textbf{Solution:}
+}
+{
+\par
+}
+
+\newenvironment{rubric}
+{
+\par
+\begin{spacing}{.6}
+\begin{itshape}
+\color{red}
+
+}
+{
+\end{itshape}
+\end{spacing}
+\par
+}
+
+\begin{document}
+
+\maketitle
+
+This assignment is due on \textbf{11:59 PM EST, Friday, January 20, 2023}. Submissions submitted at least 24 hours prior to the due date will receive 2.5 points of extra credit. On-time submissions receive no penalty. You may turn it in one day late for a 10-point penalty or two days late for a 25-point penalty. Assignments more than two days late will NOT be accepted.  We will prioritize on-time submissions when grading before an exam. \\ 
+
+You should submit a typeset or \emph{neatly} written pdf on Gradescope.  The grading TA should not have to struggle to read what you've written; if your handwriting is hard to decipher, you will be required to typeset your future assignments. A 5-point penalty will occur if pages are incorrectly assigned to questions when submitting.\\ 
+
+You may collaborate with other students, but any written work should be your own. Write the names of the students you work with on the top of your assignment.\\
+
+Always justify your work, even if the problem doesn't specify it. It can help the TA's to give you partial credit.
+\\
+
+Author(s): David Teng
+
+\clearpage
+
+\begin{enumerate}
+
+    \item Rewrite each of the following in the form ``if ...., then ...".  (You may adjust verb tense as you wish to make the sentences sound natural.) \pt 6
+    
+    \begin{enumerate}
+        \item You will do well in discrete math unless you do not study for the exams.
+        
+        \item You can go out to eat only if you remember to bring money.
+        
+        \item Doing well on exams is sufficient to pass the course.
+    \end{enumerate}
+    
+    
+    \item Evaluate each of the following propositions as True or False. \pt 8
+    \begin{enumerate}
+        \item If three is an even number, then triangles have ten sides.
+        \item If $0 \leq 0$, then $1 > -1$.
+        \item If $3*3 = 33$, then $2+9=11$.
+        \item If $9$ is not even, then $10$ is odd. 
+    \end{enumerate}
+    
+    \item Let $s$ be the proposition ``You are a student.", let $d$ be the proposition ``You are taking Discrete Math.", and let $n$ be the proposition ``It is Snowing." Expressing the following as English sentences. (You may adjust tense as you like.) \pt 6
+    
+    \begin{enumerate}
+        \item $(d \land n) \rightarrow s$
+        \item $\lnot n \vee (n \rightarrow s)$
+        \item $(n \land d) \leftrightarrow s$
+    \end{enumerate}
+    
+    
+    \item Let $l$ be the proposition ``You are late for class.", let $a$ be the proposition ``You set an alarm", and let $h$ be the proposition ``You did your homework." Represent each of the following statements using only $l, a, h$ and logical operators. Then, negate the statements you identify pushing all negations in as far as possible.  Then translate it back to English.  \pt 6
+    
+    \begin{enumerate}
+        \item You are late for class only when you do not set an alarm or did not do your homework.
+        \item You are late for class unless you set your alarm.
+    \end{enumerate}
+    
+    
+    \item Give the converse, contrapositive, and inverse of the statement ``I go to bed whenever I finish my school work." (Don't worry about tense, just get the idea correct.) \pt 6
+    
+    
+    \item Construct truth tables for the following propositions. Include all intermediate columns, in an appropriate order, for full credit. \pte 8
+    
+    \begin{enumerate}
+        \item $\lnot p \rightarrow \lnot q$
+        \item $(\lnot p \wedge q) \rightarrow \lnot r$
+        
+        \item $(p \rightarrow \lnot q) \leftrightarrow \lnot (p \vee q)$
+    \end{enumerate}
+    \newpage
+    \item Simplify each of the following to $p$, $q$, $\neg p$, $\neg q$, $T$ or $F$ using logical equivalences. State the equivalence used at each step. Do not skip steps.  You can only use one equivalence or definition per step (even if the same one can be applied multiple times).  Do not forget about the double negation law.  \pte 8
+    
+    \begin{enumerate}
+        \item $q \rightarrow (p \vee q)$
+        \item $(p \rightarrow q) \wedge (p \rightarrow \lnot q)$.
+    \end{enumerate}
+        
+    \item Prove that $(p\wedge q) \rightarrow q \equiv (p\wedge \lnot q) \rightarrow \lnot q$ in both of the following ways.
+    \begin{enumerate}
+        \item truth table \pt{10}
+        \item logical equivalences \pt{10}
+    \end{enumerate}
+
+    \item Vikings always tell the truth and Saxons always lie.  Given the following information, use a truth table to determine what type each person is or if their status cannot be determined.  Be sure to provide a conclusion based on your work. \pt{8}
+    \\
+    \\
+    Person A says: ``I am a Viking or B is a Saxon"\\
+    Person B says: ``A is a Saxon if C is a Viking"\\
+    Person C says ``I am Saxon or A is a Saxon only if B is a Viking"
+    
+    
+\end{enumerate}
+
+\end{document}

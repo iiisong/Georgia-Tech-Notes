@@ -1,0 +1,67 @@
+{
+  "version": "1.9.0 2110 version",
+  "globalBitSize": 1,
+  "clockSpeed": 1,
+  "circuits": [
+    {
+      "name": "New circuit",
+      "components": [
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.gates.AndGatePeer",
+          "x": 18,
+          "y": 7,
+          "properties": {
+            "Negate 1": "No",
+            "Label location": "NORTH",
+            "Negate 0": "No",
+            "Number of Inputs": "2",
+            "Label": "",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 14,
+          "y": 7,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 32,
+          "y": 8,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "",
+            "Is input?": "No",
+            "Direction": "WEST",
+            "Bitsize": "1"
+          }
+        }
+      ],
+      "wires": [
+        {
+          "x": 16,
+          "y": 8,
+          "length": 2,
+          "isHorizontal": true
+        },
+        {
+          "x": 22,
+          "y": 9,
+          "length": 10,
+          "isHorizontal": true
+        }
+      ]
+    }
+  ],
+  "revisionSignatures": [
+    "CTg4NDZjYzFhODdjYjAwM2E1NDIwOWM5NmYxYjNjMmVhODMzODViYTBhZWI2OTAzYWRmZjQyZTcyZGUwNTYzZGUJMTY3NTI5MTg3NDA4MQkwYzQyZmI1YzY2NjdhZTE4MmQ1Zjg5NzYzNWY2Mzk4NjVkMWI2MjI0M2E0OTgzYTU0Nzg5N2UxZTIyMDE0MmUy"
+  ]
+}

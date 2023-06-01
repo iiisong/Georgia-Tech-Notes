@@ -1,0 +1,12 @@
+{
+    "java.checkstyle.configuration": "${workspaceFolder}\\CS 1332\\CS1332-checkstyle.xml",
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "CS 1332\\homework10",
+        "CS 2110\\hw01"
+    ],
+    "java.dependency.syncWithFolderExplorer": false,
+    "files.associations": {
+        "stddef.h": "c"
+    }
+}
