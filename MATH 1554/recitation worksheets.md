@@ -93,3 +93,88 @@ $$
 & 1 & 3 & 4 & 1& \\[0.4em]
 & 0 & 0 & 1 & 1& \\[0.4em]
 \end{pmatrix}$.
+
+<br>
+<br>
+<br>
+
+
+# Worksheet 1.8
+**Worksheet Exercises**
+1. **Written Explanation Exercise**
+Suppose $T(x)=A(x)$ for all $x$ where $A$ is a matrix and $T$ is onto.  
+    1. What can we say about pivotal rows of $A$?
+    
+    2. What can we say about the existence of solutions to $Ax=b$
+
+2. Let $A$ be an $3\times4$. What must $c$ and $d$ be if we defien the linear transformation $T : \R^c\rightarrow\R^d$ by $T(\vec{x})=A\vec{x}$?
+
+3. Let $T : \R^2\rightarrow\R^d$ be a linear transformation such that 
+$$T(   
+\begin{bmatrix}
+x_1\\[0.4em]
+x_2\\[0.4em]
+\end{bmatrix})=
+
+x_1
+\begin{bmatrix}
+-1\\[0.4em]
+3\\[0.4em]
+\end{bmatrix}
++
+x_2
+\begin{bmatrix}
+4\\[0.4em]
+-1\\[0.4em]
+\end{bmatrix}
+$$
+Construct a matrix $A$ so that $T(\vec{x})=A(\vec{x})$ for all vectors $\vec{x}$.
+
+4. Let $T : \R^5\rightarrow\R^4$ be a linear transformation such that
+$$T
+\begin{bmatrix}
+4\\[0.4em]
+0\\[0.4em]
+1\\[0.4em]
+0\\[0.4em]
+\end{bmatrix}
+=
+
+T
+\begin{bmatrix}
+0\\[0.4em]
+0\\[0.4em]
+1\\[0.4em]
+4\\[0.4em]
+\end{bmatrix}
+\neq
+0
+$$
+Identify a nontrivial solution $\vec{x}$ to $T\vec{x}=\vec{0}$.
+
+5. Let $T_A$ be the linear transformation with the matrix below. Match each choice of $A$ on the left with the geometric description of the action of $%T_A$.
+
+Rotation by $90\degree$, A shear, Projection onto $y$ axis, Dilation by 1/2
+
+
+$$
+\begin{bmatrix}
+& .5 & 0& \\[0.4em]
+& 0 & .5& \\[0.4em]
+\end{bmatrix}
+
+\begin{bmatrix}
+& 0 & 0& \\[0.4em]
+& 0 & 1& \\[0.4em]
+\end{bmatrix}
+
+\begin{bmatrix}
+& 0 & -1& \\[0.4em]
+& 1 & 0& \\[0.4em]
+\end{bmatrix}
+
+\begin{bmatrix}
+& 1 & 1& \\[0.4em]
+& 0 & 1& \\[0.4em]
+\end{bmatrix}
+$$
